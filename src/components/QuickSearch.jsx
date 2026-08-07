@@ -7,12 +7,12 @@ import {
   FaMapMarkerAlt,
   FaCalendarAlt,
 } from "react-icons/fa";
-import { useNavigate } from "react-router-dom"; // 👈 1. Import useNavigate
 
 import api from "../untils/api";
 import URL from "../contans/URL";
 
-function QuickSearch() {
+function QuickSearch(props) {
+  const [searchData, setSearchData] = useState(props.searchData || {});
   const [petTypes, setPetTypes] = useState([]);
   const [services, setServices] = useState([]);
   const [branches, setBranches] = useState([]);
@@ -21,14 +21,17 @@ function QuickSearch() {
   const [serviceId, setServiceId] = useState("");
   const [branchId, setBranchId] = useState("");
   const [bookingDate, setBookingDate] = useState("");
+  const [searchText, setSearchText] = useState("");
 
   const get_pet_types = async () => {
     const rs = await api.get(URL.PET_TYPES);
     setPetTypes(rs.data);
   };
-
+  const updateSearchData = (data) => {
+    props.updateSearchData(data);
+  };
   const get_services = async () => {
-    const rs = await api.get(URL.SERVICES);
+    const rs = await api.get(URL.SERVICE_CATEGORIES);
     setServices(rs.data);
   };
 
@@ -45,6 +48,16 @@ function QuickSearch() {
 
   const submit = (e) => {
     e.preventDefault();
+
+    const searchData = {
+      searchText,
+      petType,
+      serviceId,
+      branchId,
+      bookingDate,
+    };
+
+    updateSearchData(searchData);
   };
 
   return (
@@ -66,7 +79,7 @@ function QuickSearch() {
                   >
                     <option value="">-- Tất cả thú cưng --</option>
                     {petTypes.map((item) => (
-                      <option key={item.id} value={item.id}>
+                      <option key={item.id} value={item.value || item.id}>
                         {item.name}
                       </option>
                     ))}
@@ -74,7 +87,23 @@ function QuickSearch() {
                 </Form.Group>
               </Col>
 
-              <Col lg={3} md={6}>
+              <Col lg={2} md={6}>
+                <Form.Group>
+                  <Form.Label className="fw-semibold text-secondary d-flex align-items-center gap-2 fs-7">
+                    <FaSearch className="text-warning" />
+                    <span>Từ khóa</span>
+                  </Form.Label>
+                  <Form.Control
+                    type="text"
+                    placeholder="Nhập tên dịch vụ hoặc từ khóa"
+                    value={searchText}
+                    onChange={(e) => setSearchText(e.target.value)}
+                    className="border-light-subtle py-2 shadow-none"
+                  />
+                </Form.Group>
+              </Col>
+
+              <Col lg={2} md={6}>
                 <Form.Group>
                   <Form.Label className="fw-semibold text-secondary d-flex align-items-center gap-2 fs-7">
                     <FaConciergeBell className="text-warning" />
@@ -95,7 +124,7 @@ function QuickSearch() {
                 </Form.Group>
               </Col>
 
-              <Col lg={3} md={6}>
+              <Col lg={2} md={6}>
                 <Form.Group>
                   <Form.Label className="fw-semibold text-secondary d-flex align-items-center gap-2 fs-7">
                     <FaMapMarkerAlt className="text-warning" />

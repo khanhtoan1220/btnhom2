@@ -41,10 +41,10 @@
       "isFeatured": true,
       "isPopular": true,
       "images": [
-        "/images/services/tam1.jpg",
-        "/images/services/tam2.jpg"
+        "/images/tam_cho_img1.png",
+        "/images/tam_cho_img2.png"
       ],
-      "thumbnail": "/images/services/tam3.jpg",
+      "thumbnail": "/images/tam_cho_thumbnail.png",
       "tags": [
         "tắm",
         "vệ sinh",
@@ -93,10 +93,10 @@
       "isFeatured": true,
       "isPopular": true,
       "images": [
-        "/images/services/catlong1.jpg",
-        "/images/services/catlong2.jpg"
+        "/images/cat_long_cho_img1.png",
+        "/images/cat_long_cho_img2.png"
       ],
-      "thumbnail": "/images/services/catlong3.webp",
+      "thumbnail": "/images/cat_long_cho_thumbnail.png",
       "tags": [
         "cắt lông",
         "tỉa lông",
@@ -145,10 +145,10 @@
       "isFeatured": true,
       "isPopular": false,
       "images": [
-        "/images/services/tammeo1.jpg",
-        "/images/services/tammeo2.jpg"
+        "/images/tam_meo_img1.png",
+        "/images/tam_meo_img2.png"
       ],
-      "thumbnail": "/images/services/tammeo.jpg",
+      "thumbnail": "/images/tam_meo_thumbnail.png",
       "tags": [
         "tắm",
         "vệ sinh",
@@ -194,10 +194,10 @@
       "isFeatured": false,
       "isPopular": false,
       "images": [
-        "/images/services/longmeo1.jpg",
-        "/images/services/longmeo2.jpg"
+        "/images/cat_long_meo_img1.png",
+        "/images/cat_long_meo_img2.png "
       ],
-      "thumbnail": "/images/services/longmeo.jpg",
+      "thumbnail": "/images/cat_long_meo_thumbnail.png",
       "tags": [
         "cắt lông",
         "mèo",
@@ -247,10 +247,10 @@
       "isFeatured": true,
       "isPopular": true,
       "images": [
-        "/images/services/kham1.jpeg",
-        "/images/services/kham2.jpg"
+        "/images/kham_img1.png",
+        "/images/kham_img2.png"
       ],
-      "thumbnail": "/images/services/kham3.jpg",
+      "thumbnail": "/images/kham_thumbnail.png",
       "tags": [
         "khám sức khỏe",
         "bác sĩ thú y",
@@ -300,10 +300,10 @@
       "isFeatured": true,
       "isPopular": true,
       "images": [
-        "/images/services/tiem1.jpg",
-        "/images/services/tiem2.webp"
+        "/images/tiem_img1.png",
+        "/images/tiem_img2.png"
       ],
-      "thumbnail": "/images/services/tiem3.jpeg",
+      "thumbnail": "/images/tiem_thumbnail.png",
       "tags": [
         "tiêm phòng",
         "vaccine",
@@ -351,10 +351,10 @@
       "isFeatured": true,
       "isPopular": false,
       "images": [
-        "/images/services/khachsan1.jpg",
-        "/images/services/khachsan2.jpg"
+        "/images/hotel_img1.png",
+        "/images/hotel_img2.png"
       ],
-      "thumbnail": "/images/services/khachsan3.jpg",
+      "thumbnail": "/images/hotel_thumbnail.png",
       "tags": [
         "khách sạn",
         "lưu trú",
@@ -399,10 +399,10 @@
       "isFeatured": false,
       "isPopular": false,
       "images": [
-        "/images/services/huanluyen1.jpg",
-        "/images/services/huanluyen2.jpg"
+        "/images/traning_img1.png",
+        "/images/traning_img2.png"
       ],
-      "thumbnail": "/images/services/huanluyen3.jpg",
+      "thumbnail": "/images/traning_thumbnail.png",
       "tags": [
         "huấn luyện",
         "obedience",
@@ -452,10 +452,10 @@
       "isFeatured": false,
       "isPopular": true,
       "images": [
-        "/images/services/taygiun1.png",
-        "/images/services/taygiun2.jpg"
+        "/images/taygiun_img1.png",
+        "/images/taygiun_img2.png"
       ],
-      "thumbnail": "/images/services/taygiun3.jpg",
+      "thumbnail": "/images/taygiun_thumbnail.png",
       "tags": [
         "tẩy giun",
         "ký sinh trùng",
@@ -503,10 +503,10 @@
       "isFeatured": true,
       "isPopular": false,
       "images": [
-        "/images/services/spa1.png",
-        "/images/services/spa2.jpg"
+        "/images/spa_img1.png",
+        "/images/spa_img2.png"
       ],
-      "thumbnail": "/images/services/spa3.jpg",
+      "thumbnail": "/images/spa_thumbnail.png",
       "tags": [
         "spa",
         "cao cấp",
@@ -556,10 +556,10 @@
       "isFeatured": false,
       "isPopular": false,
       "images": [
-        "/images/services/rangmieng1.jpg",
-        "/images/services/rangmieng2.jpg"
+        "/images/rang_img1.png",
+        "/images/rang_img2.png"
       ],
-      "thumbnail": "/images/services/rangmieng3.png",
+      "thumbnail": "/images/rang_thumbnail.png",
       "tags": [
         "răng miệng",
         "cao răng",
@@ -609,10 +609,10 @@
       "isFeatured": false,
       "isPopular": true,
       "images": [
-        "/images/services/cutmong1.jpg",
-        "/images/services/cutmong2.jpg"
+        "/images/catmong_img1.png",
+        "/images/catmong_img2.png"
       ],
-      "thumbnail": "/images/services/cutmong3.webp",
+      "thumbnail": "/images/catmong_thumbnail.png",
       "tags": [
         "cắt móng",
         "vệ sinh tai",
@@ -664,10 +664,10 @@
       "isFeatured": true,
       "isPopular": false,
       "images": [
-        "/images/services/vip1.jpg",
-        "/images/services/vip2.jpg"
+        "/images/vip_img1.png",
+        "/images/vip_img2.png"
       ],
-      "thumbnail": "/images/services/vip3.jpg",
+      "thumbnail": "/images/vip_thumbnnail.png",
       "tags": [
         "VIP",
         "combo",
@@ -714,10 +714,10 @@
       "isFeatured": false,
       "isPopular": false,
       "images": [
-        "/images/services/huanluyen1.jpg",
-        "/images/services/huanluyen2.jpg"
+        "/images/chonv_img1.png",
+        "/images/chonv_img2.png"
       ],
-      "thumbnail": "/images/services/huanluyen3.jpg",
+      "thumbnail": "/images/chonv_thumbnail.png",
       "tags": [
         "huấn luyện",
         "nâng cao",
