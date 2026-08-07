@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import { Link } from "react-router-dom"; // 👈 1. Thêm import Link từ react-router-dom
 
 import Banner from "../components/Banner";
 import QuickSearch from "../components/QuickSearch";
@@ -19,7 +20,7 @@ import banner from "../assets/imgs/banner.png";
 function Home() {
   const [searchData, setSearchData] = useState(null);
   const [services, setServices] = useState([]);
-  const [searchResults, setSearchResults] = useState([]); //
+  const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
     const getServices = async () => {
@@ -110,15 +111,25 @@ function Home() {
                         <Card.Text className="text-muted fs-7 mb-2 text-truncate">
                           {item.description || "Không có mô tả"}
                         </Card.Text>
-                        <div className="mt-auto d-flex justify-content-between align-items-center pt-2 border-top">
-                          <span className="fw-bold text-danger fs-6">
-                            {item.price
-                              ? `${item.price.toLocaleString("vi-VN")}đ`
-                              : "Liên hệ"}
-                          </span>
-                          <span className="badge bg-warning text-dark">
-                            {`${item.duration} phút`}
-                          </span>
+
+                        <div className="mt-auto pt-2 border-top">
+                          <div className="d-flex justify-content-between align-items-center mb-2">
+                            <span className="fw-bold text-danger fs-6">
+                              {item.price
+                                ? `${item.price.toLocaleString("vi-VN")}đ`
+                                : "Liên hệ"}
+                            </span>
+                            <span className="badge bg-warning text-dark">
+                              {item.duration ? `${item.duration} phút` : ""}
+                            </span>
+                          </div>
+
+                          <Link
+                            to={`/services/${item.id}`}
+                            className="btn btn-outline-warning btn-sm fw-bold w-100 rounded-pill mt-1"
+                          >
+                            Xem chi tiết
+                          </Link>
                         </div>
                       </Card.Body>
                     </Card>

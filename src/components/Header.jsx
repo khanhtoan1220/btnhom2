@@ -1,7 +1,12 @@
 import { Navbar, Container, Nav, Badge } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 
-import { FaPaw, FaHeart, FaCalendarDays } from "react-icons/fa6";
+import {
+  FaPaw,
+  FaHeart,
+  FaCalendarDays,
+  FaMagnifyingGlass,
+} from "react-icons/fa6";
 
 function Header() {
   return (
@@ -23,9 +28,11 @@ function Header() {
             <Nav.Link as={NavLink} to="/services">
               Dịch vụ
             </Nav.Link>
+
             <Nav.Link as={NavLink} to="/branches">
               Cơ sở
             </Nav.Link>
+
             <Nav.Link as={NavLink} to="/blogs">
               Cẩm nang
             </Nav.Link>
@@ -38,9 +45,19 @@ function Header() {
               <FaHeart className="text-danger" />
               <span>Yêu thích</span>
             </Nav.Link>
+
+            {/* THÊM MỤC TRA CỨU LỊCH VÀO MENU */}
+            <Nav.Link
+              as={NavLink}
+              to="/booking-lookup"
+              className="d-flex align-items-center gap-1"
+            >
+              <FaMagnifyingGlass className="text-primary" />
+              <span>Tra cứu lịch</span>
+            </Nav.Link>
           </Nav>
 
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center gap-2">
             <Link
               to="/booking"
               className="btn btn-warning text-white fw-bold rounded-pill px-3 mt-2 mt-lg-0 d-flex align-items-center gap-2"
