@@ -17,7 +17,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-// DỮ LIỆU MẪU CHI TIẾT DỊCH VỤ
+// DỮ LIỆU MẪU CHI TIẾT DỊCH VỤ (ĐÃ BỔ SUNG THÊM NHIỀU DỊCH VỤ MỚI)
 const MOCK_SERVICES = [
   {
     id: 1,
@@ -99,6 +99,204 @@ const MOCK_SERVICES = [
     ],
     reviews: [
       { id: 1, user: "Phạm Thu H.", rating: 5, date: "01/05/2024", comment: "Bác sĩ tư vấn ân cần, giải thích kỹ lưỡng lắm." },
+    ],
+  },
+  {
+    id: 3,
+    name: "Tắm Spa Thư Giãn & Khử Mùi Cho Mèo",
+    category: "Grooming",
+    petType: "Cat",
+    duration: 45,
+    price: 250000,
+    salePrice: 220000,
+    rating: 4.7,
+    reviewCount: 65,
+    popularity: 90,
+    image: "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=800&q=80",
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80",
+    ],
+    suitableFor: "Mèo Anh lông ngắn, Mèo Ba Tư, Mèo Ta...",
+    description: "Liệu trình tắm dịu nhẹ giảm căng thẳng cho mèo, sử dụng sữa tắm chuyên dụng loại bỏ xơ rối và sấy tĩnh âm tránh làm bé hoảng sợ.",
+    includes: [
+      "Tắm sữa tắm giảm căng thẳng",
+      "Sấy khô bằng buồng sấy tĩnh âm",
+      "Chải lông rụng và đánh rối",
+      "Vệ sinh tai & lau mắt sạch sẽ",
+    ],
+    steps: [
+      "Làm quen và vuốt ve giảm căng thẳng",
+      "Tắm massage với nước ấm vừa đủ",
+      "Đưa vào buồng sấy tĩnh âm chuyên dụng",
+      "Chải lông và sịt tinh dầu dưỡng mượt",
+    ],
+    notes: ["Không áp dụng cho mèo quá hung dữ hoặc chưa từng tiếp xúc với nước."],
+    branches: [
+      { id: 101, name: "Cơ sở 1: 123 Nguyễn Trãi, Q.5, TP.HCM", phone: "0901 234 567" },
+    ],
+    staff: [
+      { id: 2, name: "Trần Thị B", role: "Stylist Thú Cưng", avatar: "https://i.pravatar.cc/100?img=5" },
+    ],
+    reviews: [
+      { id: 1, user: "Nguyễn Hương M.", rating: 5, date: "15/05/2024", comment: "Bé mèo nhà mình sợ nước nhưng vào đây làm rất ngoan, thơm nức nở!" },
+    ],
+  },
+  {
+    id: 4,
+    name: "Khách Sạn Thú Cưng VIP (1 Ngày Đêm)",
+    category: "Boarding",
+    petType: "Dog",
+    duration: 1440,
+    price: 300000,
+    salePrice: 270000,
+    rating: 4.9,
+    reviewCount: 150,
+    popularity: 98,
+    image: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80",
+    ],
+    suitableFor: "Chó cảnh mọi kích thước",
+    description: "Phòng lưu trú máy lạnh 24/7, trang bị camera giám sát giúp chủ nuôi theo dõi trực tiếp. Bao gồm 3 bữa ăn dinh dưỡng và giờ dạo chơi hàng ngày.",
+    includes: [
+      "Phòng ở riêng biệt sạch sẽ, tiệt trùng",
+      "Camera HD theo dõi 24/7 qua điện thoại",
+      "3 bữa ăn theo chế độ hạt/pate cao cấp",
+      "2 lượt dạo chơi vận động/ngày",
+    ],
+    steps: [
+      "Check-in, kiểm tra sức khỏe ban đầu",
+      "Nhận phòng và xếp đồ dùng cá nhân",
+      "Cập nhật nhật ký ăn uống và video cho chủ hàng ngày",
+    ],
+    notes: ["Bé cần được tiêm phòng đầy đủ các mũi cơ bản trước khi gửi."],
+    branches: [
+      { id: 101, name: "Cơ sở 1: 123 Nguyễn Trãi, Q.5, TP.HCM", phone: "0901 234 567" },
+      { id: 102, name: "Cơ sở 2: 456 Cầu Giấy, Hà Nội", phone: "0902 345 678" },
+    ],
+    staff: [
+      { id: 4, name: "Hoàng Văn D", role: "Quản lý Khách sạn Thú cưng", avatar: "https://i.pravatar.cc/100?img=33" },
+    ],
+    reviews: [
+      { id: 1, user: "Đặng Tuấn K.", rating: 5, date: "20/05/2024", comment: "Phòng sạch không mùi, xem camera thấy bé chơi vui lắm nên rất yên tâm đi công tác." },
+    ],
+  },
+  {
+    id: 5,
+    name: "Tiêm Vắc-Xin & Tẩy Giun Trọn Gói",
+    category: "Healthcare",
+    petType: "Dog",
+    duration: 20,
+    price: 450000,
+    salePrice: 390000,
+    rating: 4.9,
+    reviewCount: 210,
+    popularity: 92,
+    image: "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+    ],
+    suitableFor: "Chó con từ 2 tháng tuổi trở lên",
+    description: "Gói tiêm phòng vắc-xin 7 bệnh nguy hiểm kết hợp sổ giun định kỳ. Vắc-xin nhập khẩu chính hãng bảo quản chuẩn lạnh nghiêm ngặt.",
+    includes: [
+      "Khám tổng quát trước khi tiêm",
+      "Vắc-xin 7 bệnh nhập khẩu Mỹ/Pháp",
+      "Uống thuốc tẩy giun nội ngoại ký sinh",
+      "Cấp sổ theo dõi sức khỏe chuẩn y tế",
+    ],
+    steps: [
+      "Đo nhiệt độ, kiểm tra sức khỏe tổng quát",
+      "Tiêm vắc-xin và ghi sổ theo dõi",
+      "Theo dõi phản ứng sau tiêm tại chỗ 15-20 phút",
+    ],
+    notes: ["Không tiêm khi bé đang bị tiêu chảy, bỏ ăn hoặc sốt."],
+    branches: [
+      { id: 101, name: "Cơ sở 1: 123 Nguyễn Trãi, Q.5, TP.HCM", phone: "0901 234 567" },
+      { id: 102, name: "Cơ sở 2: 456 Cầu Giấy, Hà Nội", phone: "0902 345 678" },
+    ],
+    staff: [
+      { id: 3, name: "Bác sĩ Lê Văn C", role: "Bác sĩ Thú y Trưởng", avatar: "https://i.pravatar.cc/100?img=13" },
+    ],
+    reviews: [
+      { id: 1, user: "Vũ Mai O.", rating: 5, date: "10/04/2024", comment: "Bác sĩ tiêm êm lắm, bé không bị giật mình hay đau." },
+    ],
+  },
+  {
+    id: 6,
+    name: "Cắt Mài Móng & Vệ Sinh Tai Chuyên Sâu",
+    category: "Grooming",
+    petType: "Dog",
+    duration: 20,
+    price: 100000,
+    salePrice: 80000,
+    rating: 4.6,
+    reviewCount: 45,
+    popularity: 75,
+    image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&q=80",
+    ],
+    suitableFor: "Chó và mèo mọi lứa tuổi",
+    description: "Dịch vụ nhanh giúp vệ sinh móng tay chân gọn gàng, mài mịn tránh cào xước đồ đạc, kết hợp rửa tai sạch sẽ phòng ngừa viêm tai.",
+    includes: [
+      "Cắt móng bằng kềm chuyên dụng",
+      "Mài mịn móng bằng máy mài tĩnh âm",
+      "Nổ lông tai (nếu có) & Nhỏ dung dịch rửa tai",
+    ],
+    steps: [
+      "Kiểm tra tủy móng để tránh cắt sát gây đau",
+      "Cắt và mài bo tròn góc móng",
+      "Vệ sinh tai bằng bông y tế mềm",
+    ],
+    notes: ["Nên thực hiện định kỳ 2-3 tuần/lần."],
+    branches: [
+      { id: 101, name: "Cơ sở 1: 123 Nguyễn Trãi, Q.5, TP.HCM", phone: "0901 234 567" },
+    ],
+    staff: [
+      { id: 2, name: "Trần Thị B", role: "Stylist Thú Cưng", avatar: "https://i.pravatar.cc/100?img=5" },
+    ],
+    reviews: [
+      { id: 1, user: "Phan Văn H.", rating: 5, date: "02/05/2024", comment: "Nhanh gọn lẹ, nhân viên làm nhẹ nhàng không đau bé." },
+    ],
+  },
+  {
+    id: 7,
+    name: "Huấn Luyện Lệnh Cơ Bản Cho Chó",
+    category: "Training",
+    petType: "Dog",
+    duration: 90,
+    price: 600000,
+    salePrice: 500000,
+    rating: 4.9,
+    reviewCount: 38,
+    popularity: 82,
+    image: "https://images.unsplash.com/photo-1552053831-71594a27632d?w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1552053831-71594a27632d?w=800&q=80",
+    ],
+    suitableFor: "Chó từ 3 đến 12 tháng tuổi",
+    description: "Buổi huấn luyện 1-1 với huấn luyện viên giúp cún cưng nắm vững các lệnh cơ bản: Ngồi, Nằm, Bắt tay, Đi vệ sinh đúng chỗ và nghe lời chủ.",
+    includes: [
+      "Dạy 5 khẩu lệnh cơ bản",
+      "Sửa thói quen xấu (cắn đồ, sủa bậy)",
+      "Hướng dẫn chủ nuôi phương pháp thưởng - phạt đúng cách",
+    ],
+    steps: [
+      "Đánh giá tâm lý và tính cách cún",
+      "Thực hành phản xạ với bánh thưởng",
+      "Chuyển giao phương pháp cho chủ nuôi tự ôn tập",
+    ],
+    notes: ["Cần chủ nuôi cùng tham gia để đạt hiệu quả tốt nhất."],
+    branches: [
+      { id: 102, name: "Cơ sở 2: 456 Cầu Giấy, Hà Nội", phone: "0902 345 678" },
+    ],
+    staff: [
+      { id: 5, name: "Trịnh Đình E", role: "Huấn luyện viên Thú cưng", avatar: "https://i.pravatar.cc/100?img=60" },
+    ],
+    reviews: [
+      { id: 1, user: "Lê Thanh T.", rating: 5, date: "18/04/2024", comment: "Bé Cún nhà mình học xong về ngoan hẳn, đi vệ sinh đúng khay!" },
     ],
   },
 ];
@@ -506,7 +704,7 @@ export default function Services() {
                           marginBottom: "8px",
                         }}
                       >
-                        <Clock size={14} /> {service.duration} phút
+                        <Clock size={14} /> {service.duration >= 60 ? `${Math.floor(service.duration / 60)} giờ` : `${service.duration} phút`}
                       </div>
 
                       <div
@@ -731,7 +929,7 @@ function ServiceDetailView({
               </span>
               <span>•</span>
               <span style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-                <Clock size={16} /> {service.duration} phút
+                <Clock size={16} /> {service.duration >= 60 ? `${Math.floor(service.duration / 60)} giờ` : `${service.duration} phút`}
               </span>
             </div>
 
@@ -847,54 +1045,11 @@ function ServiceDetailView({
           <h4 style={{ margin: "0 0 8px 0", color: "#faad14", display: "flex", alignItems: "center", gap: "6px" }}>
             <AlertCircle size={18} /> Lưu ý quan trọng
           </h4>
-          <ul style={{ margin: 0, paddingLeft: "20px", color: "#666", fontSize: "14px" }}>
+          <ul style={{ margin: 0, paddingLeft: "20px", color: "#666" }}>
             {service.notes.map((note, idx) => (
               <li key={idx}>{note}</li>
             ))}
           </ul>
-        </div>
-      )}
-
-      {/* ĐÁNH GIÁ KHÁCH HÀNG */}
-      <div style={{ marginBottom: "40px" }}>
-        <h3>Đánh giá từ khách hàng ({service.reviews?.length || 0})</h3>
-        <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
-          {service.reviews?.map((rev) => (
-            <div key={rev.id} style={{ borderBottom: "1px solid #eee", paddingBottom: "12px" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "5px" }}>
-                <strong style={{ fontSize: "14px" }}>{rev.user}</strong>
-                <span style={{ fontSize: "12px", color: "#999" }}>{rev.date}</span>
-              </div>
-              <div style={{ display: "flex", gap: "2px", marginBottom: "6px" }}>
-                {[...Array(rev.rating)].map((_, i) => (
-                  <Star key={i} size={14} color="#ffc107" fill="#ffc107" />
-                ))}
-              </div>
-              <p style={{ margin: 0, color: "#555", fontSize: "14px" }}>{rev.comment}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* DỊCH VỤ LIÊN QUAN */}
-      {relatedServices.length > 0 && (
-        <div>
-          <h3>Dịch vụ liên quan</h3>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "15px" }}>
-            {relatedServices.map((rel) => (
-              <div
-                key={rel.id}
-                onClick={() => onSelectService(rel.id)}
-                style={{ border: "1px solid #eee", borderRadius: "8px", padding: "10px", cursor: "pointer", background: "#fff" }}
-              >
-                <img src={rel.image} alt={rel.name} style={{ width: "100%", height: "120px", objectFit: "cover", borderRadius: "6px" }} />
-                <h4 style={{ fontSize: "14px", margin: "8px 0 4px 0" }}>{rel.name}</h4>
-                <div style={{ color: "#ff4d4f", fontWeight: "bold", fontSize: "14px" }}>
-                  {(rel.salePrice || rel.price).toLocaleString("vi-VN")} đ
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       )}
     </div>
