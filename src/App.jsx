@@ -6,7 +6,7 @@ import Booking from "./pages/Booking";
 import Home from "./pages/Home";
 import BookingSuccess from "./pages/BookingSuccess";
 import BookingLookup from "./pages/BookingLookup";
-
+import Services from "./pages/Services";
 function App() {
   return (
     <>
