@@ -22,6 +22,7 @@ function App() {
               Component={BookingSuccess}
             />
             <Route path="/booking-lookup" Component={BookingLookup} />
+            <Route path="/services" element={<Services />} />
           </Routes>
         </div>
       </main>
