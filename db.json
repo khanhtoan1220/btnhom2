@@ -1,0 +1,3473 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Tắm & Vệ sinh toàn thân cho chó",
+      "categoryId": "1",
+      "petType": [
+        "dog"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "description": "Dịch vụ tắm chuyên sâu với shampoo chuyên dụng, làm sạch tai, cắt móng, vệ sinh hậu môn và sấy lông. Phù hợp cho mọi giống chó từ nhỏ đến lớn.",
+      "steps": [
+        "Kiểm tra tình trạng lông và da",
+        "Tắm sạch với shampoo chuyên dụng",
+        "Xả nước kỹ lưỡng",
+        "Vệ sinh tai và cắt móng",
+        "Sấy và chải lông"
+      ],
+      "includes": [
+        "Shampoo cao cấp",
+        "Vệ sinh tai",
+        "Cắt móng",
+        "Sấy lông",
+        "Nước hoa thú cưng"
+      ],
+      "notes": "Vui lòng không tắm cho thú cưng trong vòng 24h trước khi đến. Báo trước nếu thú cưng có vấn đề về da.",
+      "duration": 60,
+      "price": 150000,
+      "discountPrice": 120000,
+      "promotionId": "1",
+      "rating": 4.8,
+      "reviewCount": 312,
+      "popularity": 95,
+      "isFeatured": true,
+      "isPopular": true,
+      "images": [
+        "/images/tam_cho_img1.png",
+        "/images/tam_cho_img2.png"
+      ],
+      "thumbnail": "/images/tam_cho_thumbnail.png",
+      "tags": [
+        "tắm",
+        "vệ sinh",
+        "chó"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-10T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Cắt tỉa lông chó theo yêu cầu",
+      "categoryId": "1",
+      "petType": [
+        "dog"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "description": "Dịch vụ cắt tỉa lông chó theo yêu cầu của chủ nuôi hoặc theo chuẩn giống. Nhân viên được đào tạo bài bản, có kinh nghiệm với nhiều giống chó khác nhau.",
+      "steps": [
+        "Tư vấn kiểu lông phù hợp",
+        "Tắm và sấy khô trước khi cắt",
+        "Cắt tỉa theo yêu cầu",
+        "Hoàn thiện và trang trí",
+        "Kiểm tra kết quả cuối cùng"
+      ],
+      "includes": [
+        "Tắm trước khi cắt",
+        "Cắt tỉa theo yêu cầu",
+        "Cắt móng",
+        "Vệ sinh tai"
+      ],
+      "notes": "Nên đặt lịch trước ít nhất 1 ngày. Mang ảnh tham khảo nếu muốn kiểu lông cụ thể.",
+      "duration": 90,
+      "price": 200000,
+      "discountPrice": 180000,
+      "promotionId": "2",
+      "rating": 4.7,
+      "reviewCount": 245,
+      "popularity": 88,
+      "isFeatured": true,
+      "isPopular": true,
+      "images": [
+        "/images/cat_long_cho_img1.png",
+        "/images/cat_long_cho_img2.png"
+      ],
+      "thumbnail": "/images/cat_long_cho_thumbnail.png",
+      "tags": [
+        "cắt lông",
+        "tỉa lông",
+        "chó",
+        "grooming"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-10T08:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Tắm & Vệ sinh toàn thân cho mèo",
+      "categoryId": "1",
+      "petType": [
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "description": "Dịch vụ tắm mèo chuyên nghiệp với kỹ thuật nhẹ nhàng, giảm stress cho mèo. Làm sạch toàn thân, vệ sinh tai, cắt móng và sấy lông an toàn.",
+      "steps": [
+        "Kiểm tra sức khỏe tổng quát",
+        "Chải lông để loại bỏ lông rụng",
+        "Tắm nhẹ nhàng với sản phẩm dành riêng cho mèo",
+        "Sấy khô bằng máy tốc độ thấp",
+        "Vệ sinh tai và cắt móng"
+      ],
+      "includes": [
+        "Shampoo cho mèo",
+        "Chải lông",
+        "Vệ sinh tai",
+        "Cắt móng"
+      ],
+      "notes": "Mèo dễ bị stress khi tắm. Vui lòng nhịn ăn cho mèo 2h trước dịch vụ để tránh nôn mửa.",
+      "duration": 75,
+      "price": 170000,
+      "discountPrice": 136000,
+      "promotionId": "1",
+      "rating": 4.6,
+      "reviewCount": 189,
+      "popularity": 80,
+      "isFeatured": true,
+      "isPopular": false,
+      "images": [
+        "/images/tam_meo_img1.png",
+        "/images/tam_meo_img2.png"
+      ],
+      "thumbnail": "/images/tam_meo_thumbnail.png",
+      "tags": [
+        "tắm",
+        "vệ sinh",
+        "mèo"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-11T08:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Cắt tỉa lông mèo",
+      "categoryId": "1",
+      "petType": [
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "3",
+        "4",
+        "6"
+      ],
+      "description": "Dịch vụ cắt tỉa lông mèo chuyên nghiệp, đặc biệt phù hợp với mèo lông dài như Ba Tư, Ragdoll, Maine Coon. Giúp mèo gọn gàng và giảm tình trạng búi lông.",
+      "steps": [
+        "Kiểm tra tình trạng lông",
+        "Chải gỡ rối lông",
+        "Cắt tỉa lông theo yêu cầu",
+        "Hoàn thiện và kiểm tra"
+      ],
+      "includes": [
+        "Chải gỡ rối",
+        "Cắt tỉa lông",
+        "Cắt móng",
+        "Vệ sinh vùng hậu môn"
+      ],
+      "notes": "Không áp dụng với mèo hung dữ hoặc không hợp tác. Vui lòng thông báo trước về tính cách của mèo.",
+      "duration": 60,
+      "price": 180000,
+      "discountPrice": 150000,
+      "promotionId": "2",
+      "rating": 4.5,
+      "reviewCount": 134,
+      "popularity": 72,
+      "isFeatured": false,
+      "isPopular": false,
+      "images": [
+        "/images/cat_long_meo_img1.png",
+        "/images/cat_long_meo_img2.png "
+      ],
+      "thumbnail": "/images/cat_long_meo_thumbnail.png",
+      "tags": [
+        "cắt lông",
+        "mèo",
+        "lông dài"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-11T08:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Khám sức khỏe định kỳ",
+      "categoryId": "2",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "description": "Dịch vụ khám sức khỏe tổng quát do bác sĩ thú y có chứng chỉ thực hiện. Kiểm tra toàn diện từ mắt, tai, răng, da lông đến tim phổi và hệ tiêu hóa.",
+      "steps": [
+        "Đo cân nặng và nhiệt độ cơ thể",
+        "Khám lâm sàng toàn diện",
+        "Kiểm tra mắt, tai, răng",
+        "Nghe tim phổi",
+        "Tư vấn chế độ dinh dưỡng và chăm sóc"
+      ],
+      "includes": [
+        "Khám lâm sàng",
+        "Đo nhiệt độ và cân nặng",
+        "Tư vấn dinh dưỡng",
+        "Phiếu khám sức khỏe"
+      ],
+      "notes": "Nên khám định kỳ 6 tháng/lần. Mang theo sổ tiêm phòng của thú cưng.",
+      "duration": 30,
+      "price": 100000,
+      "discountPrice": 50000,
+      "promotionId": "4",
+      "rating": 4.9,
+      "reviewCount": 420,
+      "popularity": 92,
+      "isFeatured": true,
+      "isPopular": true,
+      "images": [
+        "/images/kham_img1.png",
+        "/images/kham_img2.png"
+      ],
+      "thumbnail": "/images/kham_thumbnail.png",
+      "tags": [
+        "khám sức khỏe",
+        "bác sĩ thú y",
+        "định kỳ"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-12T08:00:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Tiêm phòng đầy đủ theo phác đồ",
+      "categoryId": "2",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "description": "Dịch vụ tiêm phòng cho chó và mèo theo đúng phác đồ của Bộ Nông nghiệp. Bao gồm vaccine dại, bệnh Care, Parvo, viêm gan, Lepto (chó) và Calici, Panleukopenia (mèo).",
+      "steps": [
+        "Khám sức khỏe trước tiêm",
+        "Tư vấn loại vaccine phù hợp",
+        "Tiêm vaccine theo phác đồ",
+        "Theo dõi phản ứng sau tiêm 15-30 phút",
+        "Cấp sổ tiêm phòng và hẹn tái tiêm"
+      ],
+      "includes": [
+        "Khám trước tiêm",
+        "Vaccine theo phác đồ",
+        "Sổ tiêm phòng",
+        "Tư vấn sau tiêm"
+      ],
+      "notes": "Thú cưng cần khỏe mạnh trước khi tiêm. Không tiêm khi đang điều trị bệnh hoặc sử dụng kháng sinh.",
+      "duration": 20,
+      "price": 250000,
+      "discountPrice": 220000,
+      "promotionId": null,
+      "rating": 4.8,
+      "reviewCount": 380,
+      "popularity": 90,
+      "isFeatured": true,
+      "isPopular": true,
+      "images": [
+        "/images/tiem_img1.png",
+        "/images/tiem_img2.png"
+      ],
+      "thumbnail": "/images/tiem_thumbnail.png",
+      "tags": [
+        "tiêm phòng",
+        "vaccine",
+        "phòng bệnh"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-12T08:00:00Z"
+    },
+    {
+      "id": "7",
+      "name": "Khách sạn thú cưng (theo ngày)",
+      "categoryId": "3",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "3",
+        "5"
+      ],
+      "description": "Dịch vụ lưu trú cao cấp cho thú cưng khi gia chủ vắng nhà. Không gian thoáng mát, sạch sẽ, có nhân viên chăm sóc 24/7. Mỗi thú cưng có phòng riêng biệt.",
+      "steps": [
+        "Nhận thú cưng và kiểm tra sức khỏe đầu vào",
+        "Bố trí phòng riêng theo kích thước",
+        "Chăm sóc ăn uống, vệ sinh hàng ngày",
+        "Thời gian vui chơi và tương tác",
+        "Báo cáo sức khỏe hàng ngày cho chủ nuôi"
+      ],
+      "includes": [
+        "Phòng riêng",
+        "3 bữa ăn/ngày",
+        "Vệ sinh hàng ngày",
+        "Báo cáo ảnh/video",
+        "Thuốc khi cần"
+      ],
+      "notes": "Thú cưng cần đã tiêm phòng đầy đủ. Mang theo thức ăn quen thuộc nếu thú cưng kén ăn.",
+      "duration": 1440,
+      "price": 300000,
+      "discountPrice": null,
+      "promotionId": null,
+      "rating": 4.7,
+      "reviewCount": 156,
+      "popularity": 78,
+      "isFeatured": true,
+      "isPopular": false,
+      "images": [
+        "/images/hotel_img1.png",
+        "/images/hotel_img2.png"
+      ],
+      "thumbnail": "/images/hotel_thumbnail.png",
+      "tags": [
+        "khách sạn",
+        "lưu trú",
+        "chăm sóc",
+        "theo ngày"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-13T08:00:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Huấn luyện chó cơ bản",
+      "categoryId": "4",
+      "petType": [
+        "dog"
+      ],
+      "branchIds": [
+        "1",
+        "5"
+      ],
+      "description": "Khóa huấn luyện chó các lệnh cơ bản: ngồi, nằm, đứng, đến, ở lại, không cắn và không nhảy. Phù hợp với chó từ 3 tháng tuổi trở lên.",
+      "steps": [
+        "Đánh giá tính cách và mức độ phản xạ của chó",
+        "Huấn luyện lệnh ngồi và nằm",
+        "Huấn luyện lệnh đứng và ở lại",
+        "Huấn luyện đi bộ đúng cách",
+        "Tổng kết và hướng dẫn chủ nuôi luyện tập tại nhà"
+      ],
+      "includes": [
+        "10 buổi huấn luyện",
+        "Tài liệu hướng dẫn",
+        "Hỗ trợ tư vấn online 1 tháng"
+      ],
+      "notes": "Cần cam kết luyện tập đều đặn tại nhà. Chủ nuôi nên tham gia ít nhất 50% số buổi.",
+      "duration": 60,
+      "price": 1500000,
+      "discountPrice": 1200000,
+      "promotionId": null,
+      "rating": 4.9,
+      "reviewCount": 98,
+      "popularity": 70,
+      "isFeatured": false,
+      "isPopular": false,
+      "images": [
+        "/images/traning_img1.png",
+        "/images/traning_img2.png"
+      ],
+      "thumbnail": "/images/traning_thumbnail.png",
+      "tags": [
+        "huấn luyện",
+        "obedience",
+        "chó con",
+        "cơ bản"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-14T08:00:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Tẩy giun & xổ ký sinh trùng",
+      "categoryId": "2",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "description": "Dịch vụ tẩy giun và xổ ký sinh trùng nội ngoại ký sinh định kỳ, giúp thú cưng luôn khỏe mạnh. Sử dụng thuốc nhập khẩu chất lượng cao, an toàn.",
+      "steps": [
+        "Khám và cân nặng để xác định liều thuốc",
+        "Tẩy giun đường ruột",
+        "Nhỏ hoặc xịt thuốc ve rận ngoại ký sinh",
+        "Tư vấn lịch tái xử lý"
+      ],
+      "includes": [
+        "Khám sức khỏe",
+        "Thuốc tẩy giun",
+        "Thuốc ve rận ngoại ký sinh",
+        "Phiếu hẹn tái xử lý"
+      ],
+      "notes": "Nên nhịn ăn trước 2-4 tiếng. Thực hiện định kỳ 3 tháng/lần.",
+      "duration": 20,
+      "price": 120000,
+      "discountPrice": null,
+      "promotionId": null,
+      "rating": 4.7,
+      "reviewCount": 210,
+      "popularity": 85,
+      "isFeatured": false,
+      "isPopular": true,
+      "images": [
+        "/images/taygiun_img1.png",
+        "/images/taygiun_img2.png"
+      ],
+      "thumbnail": "/images/taygiun_thumbnail.png",
+      "tags": [
+        "tẩy giun",
+        "ký sinh trùng",
+        "phòng bệnh"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-14T08:00:00Z"
+    },
+    {
+      "id": "10",
+      "name": "Spa & Chăm sóc đặc biệt cho chó",
+      "categoryId": "1",
+      "petType": [
+        "dog"
+      ],
+      "branchIds": [
+        "1",
+        "3",
+        "6"
+      ],
+      "description": "Gói dịch vụ spa cao cấp kết hợp tắm dưỡng chất, massage thư giãn, đắp mặt nạ lông và nước hoa thú cưng. Mang lại trải nghiệm sang trọng cho boss cún yêu.",
+      "steps": [
+        "Tắm với shampoo dưỡng chất cao cấp",
+        "Đắp kem dưỡng ẩm lông",
+        "Massage thư giãn 15 phút",
+        "Cắt móng và vệ sinh tai",
+        "Xịt nước hoa và hoàn thiện"
+      ],
+      "includes": [
+        "Tắm dưỡng chất",
+        "Đắp kem lông",
+        "Massage",
+        "Cắt móng",
+        "Nước hoa cao cấp",
+        "Khăn lau riêng"
+      ],
+      "notes": "Khuyến nghị thực hiện mỗi 4-6 tuần để duy trì độ bóng mượt của lông.",
+      "duration": 120,
+      "price": 350000,
+      "discountPrice": 299000,
+      "promotionId": null,
+      "rating": 4.8,
+      "reviewCount": 87,
+      "popularity": 65,
+      "isFeatured": true,
+      "isPopular": false,
+      "images": [
+        "/images/spa_img1.png",
+        "/images/spa_img2.png"
+      ],
+      "thumbnail": "/images/spa_thumbnail.png",
+      "tags": [
+        "spa",
+        "cao cấp",
+        "chó",
+        "massage",
+        "dưỡng lông"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-15T08:00:00Z"
+    },
+    {
+      "id": "11",
+      "name": "Vệ sinh răng miệng thú cưng",
+      "categoryId": "2",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "description": "Dịch vụ vệ sinh răng miệng chuyên sâu giúp loại bỏ cao răng, mảng bám và ngăn ngừa bệnh viêm nướu cho thú cưng. Thực hiện bởi bác sĩ thú y có chuyên môn.",
+      "steps": [
+        "Kiểm tra tình trạng răng miệng",
+        "Gây mê nhẹ nếu cần thiết",
+        "Lấy cao răng bằng máy siêu âm",
+        "Đánh bóng răng",
+        "Kiểm tra và tư vấn chế độ chăm sóc tại nhà"
+      ],
+      "includes": [
+        "Khám răng miệng",
+        "Lấy cao răng",
+        "Đánh bóng răng",
+        "Tư vấn chăm sóc"
+      ],
+      "notes": "Nhịn ăn ít nhất 6 tiếng trước khi thực hiện. Nên làm định kỳ 6-12 tháng/lần.",
+      "duration": 45,
+      "price": 280000,
+      "discountPrice": null,
+      "promotionId": null,
+      "rating": 4.6,
+      "reviewCount": 73,
+      "popularity": 58,
+      "isFeatured": false,
+      "isPopular": false,
+      "images": [
+        "/images/rang_img1.png",
+        "/images/rang_img2.png"
+      ],
+      "thumbnail": "/images/rang_thumbnail.png",
+      "tags": [
+        "răng miệng",
+        "cao răng",
+        "vệ sinh",
+        "nha khoa"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-15T08:00:00Z"
+    },
+    {
+      "id": "12",
+      "name": "Cắt móng & Vệ sinh tai",
+      "categoryId": "1",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "description": "Dịch vụ cắt móng và vệ sinh tai nhanh chóng, an toàn. Sử dụng dụng cụ chuyên dụng được khử trùng sau mỗi lần dùng.",
+      "steps": [
+        "Kiểm tra tình trạng móng và tai",
+        "Cắt móng từng ngón cẩn thận",
+        "Mài nhẵn đầu móng",
+        "Làm sạch tai bằng dung dịch chuyên dụng",
+        "Kiểm tra dấu hiệu viêm nhiễm"
+      ],
+      "includes": [
+        "Cắt và mài móng",
+        "Vệ sinh tai",
+        "Dung dịch vệ sinh tai"
+      ],
+      "notes": "Không cần đặt lịch trước, phục vụ walk-in. Thời gian nhanh chỉ 15-20 phút.",
+      "duration": 20,
+      "price": 60000,
+      "discountPrice": null,
+      "promotionId": null,
+      "rating": 4.5,
+      "reviewCount": 445,
+      "popularity": 93,
+      "isFeatured": false,
+      "isPopular": true,
+      "images": [
+        "/images/catmong_img1.png",
+        "/images/catmong_img2.png"
+      ],
+      "thumbnail": "/images/catmong_thumbnail.png",
+      "tags": [
+        "cắt móng",
+        "vệ sinh tai",
+        "nhanh",
+        "walk-in"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-16T08:00:00Z"
+    },
+    {
+      "id": "13",
+      "name": "Gói chăm sóc toàn diện VIP",
+      "categoryId": "1",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "3",
+        "6"
+      ],
+      "description": "Gói dịch vụ cao cấp bao gồm tắm spa, cắt tỉa lông, cắt móng, vệ sinh tai, vệ sinh răng, massage và nước hoa. Tiết kiệm hơn 30% so với mua lẻ.",
+      "steps": [
+        "Kiểm tra sức khỏe tổng quát",
+        "Tắm spa với shampoo dưỡng chất",
+        "Cắt tỉa lông theo yêu cầu",
+        "Vệ sinh tai và cắt móng",
+        "Massage và hoàn thiện"
+      ],
+      "includes": [
+        "Tắm spa",
+        "Cắt lông",
+        "Cắt móng",
+        "Vệ sinh tai",
+        "Vệ sinh răng",
+        "Massage 15 phút",
+        "Nước hoa cao cấp",
+        "Ảnh sau dịch vụ"
+      ],
+      "notes": "Nên đặt lịch trước ít nhất 2 ngày do thời gian thực hiện dài. Ưu tiên khung giờ sáng.",
+      "duration": 180,
+      "price": 650000,
+      "discountPrice": 499000,
+      "promotionId": "3",
+      "rating": 4.9,
+      "reviewCount": 62,
+      "popularity": 60,
+      "isFeatured": true,
+      "isPopular": false,
+      "images": [
+        "/images/vip_img1.png",
+        "/images/vip_img2.png"
+      ],
+      "thumbnail": "/images/vip_thumbnnail.png",
+      "tags": [
+        "VIP",
+        "combo",
+        "toàn diện",
+        "cao cấp",
+        "tiết kiệm"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-16T08:00:00Z"
+    },
+    {
+      "id": "14",
+      "name": "Huấn luyện chó nghiệp vụ nâng cao",
+      "categoryId": "4",
+      "petType": [
+        "dog"
+      ],
+      "branchIds": [
+        "1",
+        "5"
+      ],
+      "description": "Khóa huấn luyện nâng cao dành cho chó đã hoàn thành khóa cơ bản. Bao gồm huấn luyện bảo vệ, tìm kiếm, theo dấu và các kỹ năng nghiệp vụ chuyên biệt.",
+      "steps": [
+        "Đánh giá kết quả khóa cơ bản",
+        "Huấn luyện lệnh từ xa không dùng dây",
+        "Huấn luyện kỹ năng bảo vệ cơ bản",
+        "Huấn luyện theo dấu và tìm kiếm",
+        "Tổng kết và cấp chứng chỉ"
+      ],
+      "includes": [
+        "20 buổi huấn luyện",
+        "Chứng chỉ hoàn thành",
+        "Dây dắt chuyên dụng",
+        "Tài liệu nâng cao"
+      ],
+      "notes": "Chỉ dành cho chó đã hoàn thành khóa cơ bản. Độ tuổi phù hợp từ 1 năm trở lên.",
+      "duration": 90,
+      "price": 3000000,
+      "discountPrice": 2500000,
+      "promotionId": null,
+      "rating": 4.8,
+      "reviewCount": 34,
+      "popularity": 45,
+      "isFeatured": false,
+      "isPopular": false,
+      "images": [
+        "/images/chonv_img1.png",
+        "/images/chonv_img2.png"
+      ],
+      "thumbnail": "/images/chonv_thumbnail.png",
+      "tags": [
+        "huấn luyện",
+        "nâng cao",
+        "nghiệp vụ",
+        "bảo vệ"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-17T08:00:00Z"
+    },
+    {
+      "id": "15",
+      "name": "Chăm sóc thú cưng tại nhà",
+      "categoryId": "5",
+      "petType": [
+        "dog",
+        "cat"
+      ],
+      "branchIds": [
+        "1",
+        "3",
+        "5",
+        "6"
+      ],
+      "description": "Dịch vụ nhân viên đến tận nhà chăm sóc thú cưng: cho ăn, dọn vệ sinh, chơi đùa và theo dõi sức khỏe. Gửi báo cáo ảnh/video hàng ngày cho chủ nuôi.",
+      "steps": [
+        "Nhân viên đến nhà theo giờ đã đặt",
+        "Cho thú cưng ăn theo khẩu phần",
+        "Dọn vệ sinh khu vực sinh sống",
+        "Vui chơi và tương tác với thú cưng",
+        "Gửi báo cáo ảnh và tình trạng sức khỏe"
+      ],
+      "includes": [
+        "Cho ăn đúng giờ",
+        "Dọn vệ sinh",
+        "Chơi đùa",
+        "Báo cáo ảnh/video",
+        "Theo dõi sức khỏe cơ bản"
+      ],
+      "notes": "Cần cung cấp thức ăn sẵn tại nhà. Phục vụ trong bán kính 10km từ cơ sở.",
+      "duration": 60,
+      "price": 200000,
+      "discountPrice": null,
+      "promotionId": null,
+      "rating": 4.6,
+      "reviewCount": 118,
+      "popularity": 68,
+      "isFeatured": false,
+      "isPopular": false,
+      "images": [
+        "/images/services/spa1.png",
+        "/images/services/spa2.jpg"
+      ],
+      "thumbnail": "/images/services/spa3.jpg",
+      "tags": [
+        "tại nhà",
+        "home service",
+        "chăm sóc",
+        "tiện lợi"
+      ],
+      "isActive": true,
+      "createdAt": "2024-01-17T08:00:00Z"
+    }
+  ],
+  "serviceCategories": [
+    {
+      "id": "1",
+      "name": "Tắm & Làm đẹp",
+      "slug": "tam-lam-dep",
+      "description": "Các dịch vụ tắm rửa, vệ sinh, cắt tỉa lông và làm đẹp cho thú cưng.",
+      "icon": "🛁",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Grooming_Poodle.jpg/500px-Grooming_Poodle.jpg",
+      "serviceCount": 6,
+      "isActive": true,
+      "sortOrder": 1,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Y tế & Sức khỏe",
+      "slug": "y-te-suc-khoe",
+      "description": "Dịch vụ khám chữa bệnh, tiêm phòng, tẩy giun và chăm sóc sức khỏe tổng thể.",
+      "icon": "🏥",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Dogs.jpg/500px-Collage_of_Nine_Dogs.jpg",
+      "serviceCount": 4,
+      "isActive": true,
+      "sortOrder": 2,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Khách sạn & Lưu trú",
+      "slug": "khach-san-luu-tru",
+      "description": "Dịch vụ trông giữ và lưu trú theo ngày hoặc theo tuần, có nhân viên chăm sóc 24/7.",
+      "icon": "🏨",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/500px-YellowLabradorLooking_new.jpg",
+      "serviceCount": 2,
+      "isActive": true,
+      "sortOrder": 3,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Huấn luyện",
+      "slug": "huan-luyen",
+      "description": "Các khóa huấn luyện từ cơ bản đến nâng cao cho chó.",
+      "icon": "🎓",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dog_Breeds.jpg/500px-Dog_Breeds.jpg",
+      "serviceCount": 2,
+      "isActive": true,
+      "sortOrder": 4,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Chăm sóc tại nhà",
+      "slug": "cham-soc-tai-nha",
+      "description": "Dịch vụ nhân viên đến tận nhà chăm sóc thú cưng theo khung giờ linh hoạt.",
+      "icon": "🏠",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/500px-Cat_poster_1.jpg",
+      "serviceCount": 1,
+      "isActive": true,
+      "sortOrder": 5,
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "petTypes": [
+    {
+      "id": "1",
+      "name": "Chó",
+      "value": "dog",
+      "icon": "🐶",
+      "description": "Tất cả giống chó",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Mèo",
+      "value": "cat",
+      "icon": "🐱",
+      "description": "Tất cả giống mèo",
+      "isActive": true
+    }
+  ],
+  "branches": [
+    {
+      "id": "1",
+      "name": "PetCare - Chi nhánh Cầu Giấy",
+      "slug": "petcare-cau-giay",
+      "description": "Chi nhánh lớn nhất của hệ thống, trang bị đầy đủ thiết bị hiện đại, phòng khám riêng biệt và khu vui chơi cho thú cưng.",
+      "address": "123 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+      "district": "Cầu Giấy",
+      "city": "Hà Nội",
+      "phone": "024 3789 1234",
+      "email": "caugiay@petcare.vn",
+      "latitude": 21.0285,
+      "longitude": 105.7833,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.096!2d105.7833!3d21.0285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAx!5e0!3m2!1svi!2svn!4v1",
+      "openingHours": {
+        "monday": "07:30 - 19:30",
+        "tuesday": "07:30 - 19:30",
+        "wednesday": "07:30 - 19:30",
+        "thursday": "07:30 - 19:30",
+        "friday": "07:30 - 19:30",
+        "saturday": "07:30 - 20:00",
+        "sunday": "08:00 - 18:00"
+      },
+      "serviceIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "employeeIds": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "images": [
+        "/images/branches/caugiay1.jpg",
+        "/images/branches/caugiay2.jpg",
+        "/images/branches/caugiay3.jpg"
+      ],
+      "thumbnail": "/images/branches/caugiay3.jpg",
+      "rating": 4.8,
+      "reviewCount": 324,
+      "isActive": true,
+      "createdAt": "2023-06-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "PetCare - Chi nhánh Đống Đa",
+      "slug": "petcare-dong-da",
+      "description": "Chi nhánh trung tâm với vị trí thuận tiện. Chuyên sâu về dịch vụ y tế thú cưng và tiêm phòng định kỳ.",
+      "address": "45 Láng Hạ, Đống Đa, Hà Nội",
+      "district": "Đống Đa",
+      "city": "Hà Nội",
+      "phone": "024 3567 8901",
+      "email": "dongda@petcare.vn",
+      "latitude": 21.02,
+      "longitude": 105.834,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5!2d105.834!3d21.02!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjE!5e0!3m2!1svi!2svn!4v1",
+      "openingHours": {
+        "monday": "08:00 - 19:00",
+        "tuesday": "08:00 - 19:00",
+        "wednesday": "08:00 - 19:00",
+        "thursday": "08:00 - 19:00",
+        "friday": "08:00 - 19:00",
+        "saturday": "08:00 - 19:30",
+        "sunday": "08:30 - 17:30"
+      },
+      "serviceIds": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "6",
+        "9",
+        "11",
+        "12"
+      ],
+      "employeeIds": [
+        "5",
+        "6",
+        "7"
+      ],
+      "images": [
+        "/images/branches/dongda1.jpg",
+        "/images/branches/dongda2.jpg"
+      ],
+      "thumbnail": "/images/branches/dongda3.jpg",
+      "rating": 4.6,
+      "reviewCount": 218,
+      "isActive": true,
+      "createdAt": "2023-07-15T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "PetCare - Chi nhánh Tây Hồ",
+      "slug": "petcare-tay-ho",
+      "description": "Chi nhánh view hồ, không gian thoáng mát. Nổi tiếng với dịch vụ spa và khách sạn thú cưng cao cấp.",
+      "address": "88 Âu Cơ, Tây Hồ, Hà Nội",
+      "district": "Tây Hồ",
+      "city": "Hà Nội",
+      "phone": "024 3212 5678",
+      "email": "tayho@petcare.vn",
+      "latitude": 21.062,
+      "longitude": 105.827,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723!2d105.827!3d21.062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjE!5e0!3m2!1svi!2svn!4v1",
+      "openingHours": {
+        "monday": "07:00 - 20:00",
+        "tuesday": "07:00 - 20:00",
+        "wednesday": "07:00 - 20:00",
+        "thursday": "07:00 - 20:00",
+        "friday": "07:00 - 20:00",
+        "saturday": "07:00 - 20:30",
+        "sunday": "07:30 - 19:00"
+      },
+      "serviceIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "7",
+        "10",
+        "12",
+        "13",
+        "15"
+      ],
+      "employeeIds": [
+        "8",
+        "9",
+        "10"
+      ],
+      "images": [
+        "/images/branches/tayho1.jpg",
+        "/images/branches/tayho2.jpg"
+      ],
+      "thumbnail": "/images/branches/tayho3.jpg",
+      "rating": 4.9,
+      "reviewCount": 187,
+      "isActive": true,
+      "createdAt": "2023-09-01T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "PetCare - Chi nhánh Hoàng Mai",
+      "slug": "petcare-hoang-mai",
+      "description": "Chi nhánh phục vụ khu vực phía Nam Hà Nội với giá cả hợp lý. Đội ngũ trẻ trung, nhiệt tình. Có bãi đỗ xe rộng rãi.",
+      "address": "210 Trương Định, Hoàng Mai, Hà Nội",
+      "district": "Hoàng Mai",
+      "city": "Hà Nội",
+      "phone": "024 3890 2345",
+      "email": "hoangmai@petcare.vn",
+      "latitude": 20.995,
+      "longitude": 105.849,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725!2d105.849!3d20.995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjE!5e0!3m2!1svi!2svn!4v1",
+      "openingHours": {
+        "monday": "08:00 - 18:30",
+        "tuesday": "08:00 - 18:30",
+        "wednesday": "08:00 - 18:30",
+        "thursday": "08:00 - 18:30",
+        "friday": "08:00 - 18:30",
+        "saturday": "08:00 - 19:00",
+        "sunday": "09:00 - 17:00"
+      },
+      "serviceIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "employeeIds": [
+        "11",
+        "12"
+      ],
+      "images": [
+        "/images/branches/hoangmai1.jpg",
+        "/images/branches/hoangmai2.jpg"
+      ],
+      "thumbnail": "/images/branches/hoangmai3.jpg",
+      "rating": 4.5,
+      "reviewCount": 143,
+      "isActive": true,
+      "createdAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "PetCare - Chi nhánh Long Biên",
+      "slug": "petcare-long-bien",
+      "description": "Chi nhánh phục vụ khu vực phía Đông Hà Nội. Chuyên huấn luyện chó với sân tập ngoài trời rộng 200m².",
+      "address": "56 Nguyễn Văn Cừ, Long Biên, Hà Nội",
+      "district": "Long Biên",
+      "city": "Hà Nội",
+      "phone": "024 3456 7890",
+      "email": "longbien@petcare.vn",
+      "latitude": 21.045,
+      "longitude": 105.882,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723!2d105.882!3d21.045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjE!5e0!3m2!1svi!2svn!4v1",
+      "openingHours": {
+        "monday": "07:30 - 19:00",
+        "tuesday": "07:30 - 19:00",
+        "wednesday": "07:30 - 19:00",
+        "thursday": "07:30 - 19:00",
+        "friday": "07:30 - 19:00",
+        "saturday": "07:30 - 19:30",
+        "sunday": "08:00 - 17:30"
+      },
+      "serviceIds": [
+        "1",
+        "2",
+        "5",
+        "6",
+        "8",
+        "9",
+        "12",
+        "14",
+        "15"
+      ],
+      "employeeIds": [
+        "13",
+        "14",
+        "15"
+      ],
+      "images": [
+        "/images/branches/longbien1.jpg",
+        "/images/branches/longbien2.jpg"
+      ],
+      "thumbnail": "/images/branches/longbien3.jpg",
+      "rating": 4.7,
+      "reviewCount": 96,
+      "isActive": true,
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "name": "PetCare - Chi nhánh Thanh Xuân",
+      "slug": "petcare-thanh-xuan",
+      "description": "Chi nhánh mới nhất với trang thiết bị hiện đại nhất. Thiết kế không gian sang trọng, thân thiện. Đặt lịch online và nhận thông báo qua SMS.",
+      "address": "302 Nguyễn Trãi, Thanh Xuân, Hà Nội",
+      "district": "Thanh Xuân",
+      "city": "Hà Nội",
+      "phone": "024 3678 9012",
+      "email": "thanhxuan@petcare.vn",
+      "latitude": 21.008,
+      "longitude": 105.815,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724!2d105.815!3d21.008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjE!5e0!3m2!1svi!2svn!4v1",
+      "openingHours": {
+        "monday": "07:30 - 20:00",
+        "tuesday": "07:30 - 20:00",
+        "wednesday": "07:30 - 20:00",
+        "thursday": "07:30 - 20:00",
+        "friday": "07:30 - 20:00",
+        "saturday": "07:00 - 20:30",
+        "sunday": "08:00 - 18:30"
+      },
+      "serviceIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "employeeIds": [
+        "16",
+        "17",
+        "18"
+      ],
+      "images": [
+        "/images/branches/thanhxuan1.jpg",
+        "/images/branches/thanhxuan2.jpg"
+      ],
+      "thumbnail": "/images/branches/thanhxuan3.jpg",
+      "rating": 4.7,
+      "reviewCount": 58,
+      "isActive": true,
+      "createdAt": "2024-03-01T00:00:00Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "Nguyễn Thị Hương",
+      "branchId": "1",
+      "role": "Bác sĩ thú y",
+      "specialties": [
+        "Khám bệnh",
+        "Tiêm phòng",
+        "Phẫu thuật nhỏ"
+      ],
+      "serviceIds": [
+        "5",
+        "6",
+        "9",
+        "11"
+      ],
+      "experience": 7,
+      "certificate": "Tốt nghiệp Học viện Nông nghiệp Việt Nam",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "bio": "Tốt nghiệp Học viện Nông nghiệp Việt Nam, 7 năm kinh nghiệm khám và điều trị cho chó mèo.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.9,
+      "reviewCount": 145,
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Trần Văn Minh",
+      "branchId": "1",
+      "role": "Kỹ thuật viên grooming",
+      "specialties": [
+        "Cắt lông Poodle",
+        "Cắt lông Bichon",
+        "Spa chó"
+      ],
+      "serviceIds": [
+        "1",
+        "2",
+        "10",
+        "12",
+        "13"
+      ],
+      "experience": 5,
+      "certificate": "Chứng chỉ grooming Nhật Bản",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "Chuyên gia grooming với 5 năm kinh nghiệm, được đào tạo tại Nhật Bản. Thành thạo nhiều kiểu cắt tỉa.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.8,
+      "reviewCount": 210,
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Lê Thị Mai",
+      "branchId": "1",
+      "role": "Kỹ thuật viên grooming",
+      "specialties": [
+        "Tắm mèo",
+        "Cắt lông mèo",
+        "Chăm sóc mèo lông dài"
+      ],
+      "serviceIds": [
+        "3",
+        "4",
+        "12",
+        "13"
+      ],
+      "experience": 4,
+      "certificate": "Chứng chỉ grooming mèo",
+      "workingDays": [
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "Yêu mèo từ nhỏ, chuyên tắm và chăm sóc mèo với kỹ thuật nhẹ nhàng, giúp mèo ít bị stress nhất.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.7,
+      "reviewCount": 98,
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Phạm Quốc Hùng",
+      "branchId": "1",
+      "role": "Huấn luyện viên",
+      "specialties": [
+        "Huấn luyện cơ bản",
+        "Huấn luyện nghiệp vụ",
+        "Sửa hành vi xấu"
+      ],
+      "serviceIds": [
+        "8",
+        "14"
+      ],
+      "experience": 10,
+      "certificate": "CPDT-KA International",
+      "workingDays": [
+        "monday",
+        "wednesday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "10 năm huấn luyện chó, từng làm việc với chó nghiệp vụ cảnh sát. Có chứng chỉ quốc tế CPDT-KA.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "reviewCount": 67,
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "name": "Đỗ Thị Lan",
+      "branchId": "2",
+      "role": "Bác sĩ thú y",
+      "specialties": [
+        "Khám bệnh",
+        "Tiêm phòng",
+        "Tư vấn dinh dưỡng"
+      ],
+      "serviceIds": [
+        "5",
+        "6",
+        "9",
+        "11"
+      ],
+      "experience": 6,
+      "certificate": "Tốt nghiệp ĐH Nông Lâm TP.HCM",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "bio": "Bác sĩ thú y với 6 năm kinh nghiệm, chuyên về nội khoa thú cưng nhỏ.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.8,
+      "reviewCount": 112,
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "name": "Hoàng Văn Tú",
+      "branchId": "2",
+      "role": "Kỹ thuật viên grooming",
+      "specialties": [
+        "Tắm chó",
+        "Cắt lông chó",
+        "Vệ sinh tai móng"
+      ],
+      "serviceIds": [
+        "1",
+        "2",
+        "12"
+      ],
+      "experience": 3,
+      "certificate": "Chứng chỉ grooming cơ bản",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "Nhân viên grooming nhiệt tình, tỉ mỉ. Yêu thích làm việc với mọi giống chó.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.6,
+      "reviewCount": 78,
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "name": "Nguyễn Thị Thu",
+      "branchId": "2",
+      "role": "Kỹ thuật viên grooming",
+      "specialties": [
+        "Tắm mèo",
+        "Cắt lông mèo"
+      ],
+      "serviceIds": [
+        "3",
+        "4",
+        "12"
+      ],
+      "experience": 2,
+      "certificate": "Chứng chỉ grooming mèo",
+      "workingDays": [
+        "tuesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "bio": "Nhân viên mới với kỹ năng tốt, đặc biệt nhẹ nhàng và kiên nhẫn với mèo.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.5,
+      "reviewCount": 34,
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "name": "Vũ Thị Hà",
+      "branchId": "3",
+      "role": "Chuyên viên spa",
+      "specialties": [
+        "Spa chó cao cấp",
+        "Massage thú cưng",
+        "Dưỡng lông"
+      ],
+      "serviceIds": [
+        "1",
+        "2",
+        "10",
+        "13"
+      ],
+      "experience": 5,
+      "certificate": "Bằng spa thú cưng Hàn Quốc",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "Chuyên viên spa thú cưng với bằng cấp từ Hàn Quốc. Chuyên các liệu trình spa và dưỡng lông cao cấp.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "isActive": true
+    },
+    {
+      "id": "9",
+      "name": "Bùi Văn Nam",
+      "branchId": "3",
+      "role": "Nhân viên khách sạn",
+      "specialties": [
+        "Chăm sóc lưu trú",
+        "Chăm sóc thú cưng tại nhà"
+      ],
+      "serviceIds": [
+        "7",
+        "15"
+      ],
+      "experience": 4,
+      "certificate": "Chứng chỉ chăm sóc thú cưng",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "bio": "Nhân viên chăm sóc lưu trú tận tâm, báo cáo ảnh đầy đủ cho chủ nuôi mỗi ngày.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.8,
+      "reviewCount": 89,
+      "isActive": true
+    },
+    {
+      "id": "10",
+      "name": "Trịnh Thị Phương",
+      "branchId": "3",
+      "role": "Kỹ thuật viên grooming",
+      "specialties": [
+        "Grooming mèo",
+        "Spa mèo",
+        "Chăm sóc mèo lông dài"
+      ],
+      "serviceIds": [
+        "3",
+        "4",
+        "12",
+        "13"
+      ],
+      "experience": 6,
+      "certificate": "Chứng chỉ grooming mèo lông dài",
+      "workingDays": [
+        "monday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "6 năm kinh nghiệm grooming mèo, đặc biệt thành thạo với mèo Ba Tư và Ragdoll.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.7,
+      "reviewCount": 103,
+      "isActive": true
+    },
+    {
+      "id": "11",
+      "name": "Lý Văn Đức",
+      "branchId": "4",
+      "role": "Bác sĩ thú y",
+      "specialties": [
+        "Khám bệnh",
+        "Tiêm phòng"
+      ],
+      "serviceIds": [
+        "5",
+        "6",
+        "9"
+      ],
+      "experience": 5,
+      "certificate": "Tốt nghiệp Học viện Nông nghiệp Việt Nam",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "bio": "Bác sĩ thú y tận tâm, nhiều năm gắn bó với cộng đồng nuôi thú cưng tại Hoàng Mai.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.6,
+      "reviewCount": 87,
+      "isActive": true
+    },
+    {
+      "id": "12",
+      "name": "Ngô Thị Bích",
+      "branchId": "4",
+      "role": "Kỹ thuật viên grooming",
+      "specialties": [
+        "Tắm chó",
+        "Tắm mèo",
+        "Cắt móng"
+      ],
+      "serviceIds": [
+        "1",
+        "2",
+        "3",
+        "12"
+      ],
+      "experience": 3,
+      "certificate": "Chứng chỉ grooming cơ bản",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "Nhân viên grooming trẻ, nhiệt tình và cẩn thận trong từng công đoạn chăm sóc.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.5,
+      "reviewCount": 56,
+      "isActive": true
+    },
+    {
+      "id": "13",
+      "name": "Đinh Văn Long",
+      "branchId": "5",
+      "role": "Huấn luyện viên",
+      "specialties": [
+        "Huấn luyện cơ bản",
+        "Sửa hành vi",
+        "Agility"
+      ],
+      "serviceIds": [
+        "8",
+        "14"
+      ],
+      "experience": 8,
+      "certificate": "Chứng chỉ huấn luyện quốc tế",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "8 năm huấn luyện chó với phương pháp tích cực (positive reinforcement). Đã huấn luyện hơn 300 chú chó.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.9,
+      "reviewCount": 121,
+      "isActive": true
+    },
+    {
+      "id": "14",
+      "name": "Cao Thị Ngọc",
+      "branchId": "5",
+      "role": "Bác sĩ thú y",
+      "specialties": [
+        "Khám bệnh",
+        "Tiêm phòng",
+        "Tẩy giun"
+      ],
+      "serviceIds": [
+        "5",
+        "6",
+        "9",
+        "11"
+      ],
+      "experience": 4,
+      "certificate": "Tốt nghiệp ĐH Nông Lâm TP.HCM",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "bio": "Bác sĩ trẻ năng động, cập nhật liên tục kiến thức y tế thú cưng mới nhất.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.7,
+      "reviewCount": 64,
+      "isActive": true
+    },
+    {
+      "id": "15",
+      "name": "Phan Văn Khoa",
+      "branchId": "5",
+      "role": "Nhân viên chăm sóc tại nhà",
+      "specialties": [
+        "Chăm sóc tại nhà",
+        "Lưu trú"
+      ],
+      "serviceIds": [
+        "7",
+        "15"
+      ],
+      "experience": 2,
+      "certificate": "Chứng chỉ chăm sóc thú cưng",
+      "workingDays": [
+        "monday",
+        "wednesday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "bio": "Yêu động vật từ nhỏ, luôn chăm sóc thú cưng như của chính mình khi nhận nhiệm vụ.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.6,
+      "reviewCount": 38,
+      "isActive": true
+    },
+    {
+      "id": "16",
+      "name": "Tô Thị Hồng",
+      "branchId": "6",
+      "role": "Chuyên viên spa",
+      "specialties": [
+        "Spa chó",
+        "Spa mèo",
+        "Dưỡng lông cao cấp"
+      ],
+      "serviceIds": [
+        "1",
+        "3",
+        "10",
+        "13"
+      ],
+      "experience": 5,
+      "certificate": "Bằng spa thú cưng Hàn Quốc",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "Chuyên viên spa thú cưng được đào tạo bài bản, chuyên các liệu trình dưỡng lông và massage.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.8,
+      "reviewCount": 72,
+      "isActive": true
+    },
+    {
+      "id": "17",
+      "name": "Mai Văn Thắng",
+      "branchId": "6",
+      "role": "Bác sĩ thú y",
+      "specialties": [
+        "Khám bệnh",
+        "Tiêm phòng",
+        "Răng miệng"
+      ],
+      "serviceIds": [
+        "5",
+        "6",
+        "9",
+        "11"
+      ],
+      "experience": 9,
+      "certificate": "Tiến sĩ thú y - ĐH Nông nghiệp HN",
+      "workingDays": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "bio": "Bác sĩ thú y lâu năm, chuyên sâu về nha khoa và bệnh lý nội khoa thú cưng nhỏ.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.9,
+      "reviewCount": 198,
+      "isActive": true
+    },
+    {
+      "id": "18",
+      "name": "Lưu Thị Dung",
+      "branchId": "6",
+      "role": "Kỹ thuật viên grooming",
+      "specialties": [
+        "Cắt lông chó",
+        "Cắt lông mèo",
+        "Vệ sinh tổng thể"
+      ],
+      "serviceIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "12"
+      ],
+      "experience": 4,
+      "certificate": "Chứng chỉ grooming tổng hợp",
+      "workingDays": [
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "bio": "Nhân viên grooming tỉ mỉ, thành thạo nhiều kiểu cắt tỉa cho cả chó và mèo.",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4.7,
+      "reviewCount": 49,
+      "isActive": true
+    }
+  ],
+  "timeSlots": [
+    {
+      "id": "1",
+      "time": "07:30",
+      "label": "07:30 - 08:30",
+      "isAvailable": true
+    },
+    {
+      "id": "2",
+      "time": "08:30",
+      "label": "08:30 - 09:30",
+      "isAvailable": true
+    },
+    {
+      "id": "3",
+      "time": "09:30",
+      "label": "09:30 - 10:30",
+      "isAvailable": true
+    },
+    {
+      "id": "4",
+      "time": "10:30",
+      "label": "10:30 - 11:30",
+      "isAvailable": true
+    },
+    {
+      "id": "5",
+      "time": "13:00",
+      "label": "13:00 - 14:00",
+      "isAvailable": true
+    },
+    {
+      "id": "6",
+      "time": "14:00",
+      "label": "14:00 - 15:00",
+      "isAvailable": true
+    },
+    {
+      "id": "7",
+      "time": "15:00",
+      "label": "15:00 - 16:00",
+      "isAvailable": true
+    },
+    {
+      "id": "8",
+      "time": "16:00",
+      "label": "16:00 - 17:00",
+      "isAvailable": true
+    },
+    {
+      "id": "9",
+      "time": "17:00",
+      "label": "17:00 - 18:00",
+      "isAvailable": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "bookingCode": "PC-20240301-001",
+      "customerName": "Nguyễn Văn An",
+      "customerEmail": "nguyenvanan@gmail.com",
+      "customerPhone": "0912345678",
+      "customerAddress": "15 Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "petName": "Mochi",
+      "petType": "dog",
+      "petBreed": "Poodle",
+      "petAge": 2,
+      "petWeight": 4.5,
+      "petNotes": "Hay bị dị ứng với một số loại shampoo, nên dùng loại dịu nhẹ",
+      "serviceId": "2",
+      "branchId": "1",
+      "employeeId": "2",
+      "date": "2024-03-15",
+      "timeSlotId": "3",
+      "additionalServices": [],
+      "notes": "Cắt theo kiểu Teddy Bear",
+      "totalAmount": 180000,
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-03-01T10:00:00Z",
+      "updatedAt": "2024-03-15T11:30:00Z"
+    },
+    {
+      "id": "2",
+      "bookingCode": "PC-20240310-002",
+      "customerName": "Trần Thị Bình",
+      "customerEmail": "tranthib@gmail.com",
+      "customerPhone": "0987654321",
+      "customerAddress": "32 Kim Mã, Ba Đình, Hà Nội",
+      "petName": "Luna",
+      "petType": "cat",
+      "petBreed": "Mèo Ba Tư",
+      "petAge": 3,
+      "petWeight": 3.8,
+      "petNotes": "Mèo khá nhút nhát, cần nhẹ nhàng",
+      "serviceId": "3",
+      "branchId": "3",
+      "employeeId": "10",
+      "date": "2024-03-20",
+      "timeSlotId": "2",
+      "additionalServices": [
+        "12"
+      ],
+      "notes": "",
+      "totalAmount": 230000,
+      "status": "completed",
+      "paymentMethod": "transfer",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-03-10T14:30:00Z",
+      "updatedAt": "2024-03-20T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "bookingCode": "PC-20240401-003",
+      "customerName": "Lê Minh Châu",
+      "customerEmail": "leminhchau@gmail.com",
+      "customerPhone": "0901234567",
+      "customerAddress": "78 Hoàng Quốc Việt, Cầu Giấy, Hà Nội",
+      "petName": "Buddy",
+      "petType": "dog",
+      "petBreed": "Golden Retriever",
+      "petAge": 4,
+      "petWeight": 28,
+      "petNotes": "",
+      "serviceId": "5",
+      "branchId": "1",
+      "employeeId": "1",
+      "date": "2024-04-10",
+      "timeSlotId": "5",
+      "additionalServices": [],
+      "notes": "Lần đầu khám tại đây",
+      "totalAmount": 100000,
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-04-01T09:00:00Z",
+      "updatedAt": "2024-04-01T09:00:00Z"
+    },
+    {
+      "id": "4",
+      "bookingCode": "PC-20240415-004",
+      "customerName": "Phạm Thị Diệu",
+      "customerEmail": "phamthidieu@gmail.com",
+      "customerPhone": "0934567890",
+      "customerAddress": "5 Láng Hạ, Đống Đa, Hà Nội",
+      "petName": "Simba",
+      "petType": "cat",
+      "petBreed": "Anh lông ngắn",
+      "petAge": 1,
+      "petWeight": 2.5,
+      "petNotes": "Chưa tiêm phòng lần nào",
+      "serviceId": "6",
+      "branchId": "2",
+      "employeeId": "5",
+      "date": "2024-04-20",
+      "timeSlotId": "4",
+      "additionalServices": [],
+      "notes": "",
+      "totalAmount": 220000,
+      "status": "confirmed",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-04-15T11:00:00Z",
+      "updatedAt": "2024-04-16T08:00:00Z"
+    },
+    {
+      "id": "5",
+      "bookingCode": "PC-20240501-005",
+      "customerName": "Hoàng Văn Bảo",
+      "customerEmail": "hoangvanbao@gmail.com",
+      "customerPhone": "0978901234",
+      "customerAddress": "120 Âu Cơ, Tây Hồ, Hà Nội",
+      "petName": "Max",
+      "petType": "dog",
+      "petBreed": "Husky",
+      "petAge": 3,
+      "petWeight": 22,
+      "petNotes": "",
+      "serviceId": "7",
+      "branchId": "3",
+      "employeeId": "9",
+      "date": "2024-05-10",
+      "timeSlotId": "1",
+      "additionalServices": [],
+      "notes": "Gửi 5 ngày, đi công tác",
+      "totalAmount": 1500000,
+      "status": "pending",
+      "paymentMethod": "transfer",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-05-01T08:00:00Z",
+      "updatedAt": "2024-05-01T08:00:00Z"
+    },
+    {
+      "id": "6",
+      "bookingCode": "PC-20240510-006",
+      "customerName": "Vũ Thị Hằng",
+      "customerEmail": "vuthihang@gmail.com",
+      "customerPhone": "0965432109",
+      "customerAddress": "33 Nguyễn Chí Thanh, Đống Đa, Hà Nội",
+      "petName": "Bông",
+      "petType": "cat",
+      "petBreed": "Maine Coon",
+      "petAge": 2,
+      "petWeight": 5.2,
+      "petNotes": "Lông dài, hay bị rối",
+      "serviceId": "4",
+      "branchId": "3",
+      "employeeId": "10",
+      "date": "2024-05-18",
+      "timeSlotId": "3",
+      "additionalServices": [
+        "12"
+      ],
+      "notes": "",
+      "totalAmount": 210000,
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-05-10T09:30:00Z",
+      "updatedAt": "2024-05-18T12:00:00Z"
+    },
+    {
+      "id": "7",
+      "bookingCode": "PC-20240520-007",
+      "customerName": "Đặng Minh Tuấn",
+      "customerEmail": "dangminhtuan@gmail.com",
+      "customerPhone": "0943210987",
+      "customerAddress": "67 Bạch Mai, Hai Bà Trưng, Hà Nội",
+      "petName": "Rocky",
+      "petType": "dog",
+      "petBreed": "Labrador",
+      "petAge": 5,
+      "petWeight": 32,
+      "petNotes": "Chó thân thiện, dễ chăm",
+      "serviceId": "1",
+      "branchId": "4",
+      "employeeId": "12",
+      "date": "2024-05-25",
+      "timeSlotId": "6",
+      "additionalServices": [],
+      "notes": "",
+      "totalAmount": 120000,
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-05-20T14:00:00Z",
+      "updatedAt": "2024-05-25T15:30:00Z"
+    },
+    {
+      "id": "8",
+      "bookingCode": "PC-20240601-008",
+      "customerName": "Ngô Thị Lan",
+      "customerEmail": "ngothilan@gmail.com",
+      "customerPhone": "0921098765",
+      "customerAddress": "12 Đội Cấn, Ba Đình, Hà Nội",
+      "petName": "Mimi",
+      "petType": "cat",
+      "petBreed": "Mèo Anh lông ngắn",
+      "petAge": 4,
+      "petWeight": 3.5,
+      "petNotes": "",
+      "serviceId": "9",
+      "branchId": "2",
+      "employeeId": "5",
+      "date": "2024-06-05",
+      "timeSlotId": "4",
+      "additionalServices": [],
+      "notes": "Nhờ tư vấn thêm về dinh dưỡng",
+      "totalAmount": 120000,
+      "status": "cancelled",
+      "paymentMethod": "cash",
+      "paymentStatus": "refunded",
+      "cancelReason": "Mèo bị ốm không thể đến",
+      "createdAt": "2024-06-01T10:00:00Z",
+      "updatedAt": "2024-06-03T09:00:00Z"
+    },
+    {
+      "id": "9",
+      "bookingCode": "PC-20240610-009",
+      "customerName": "Bùi Quang Huy",
+      "customerEmail": "buiquanghuy@gmail.com",
+      "customerPhone": "0912876543",
+      "customerAddress": "45 Nguyễn Văn Cừ, Long Biên, Hà Nội",
+      "petName": "Kira",
+      "petType": "dog",
+      "petBreed": "Corgi",
+      "petAge": 1,
+      "petWeight": 8,
+      "petNotes": "Chó con, lần đầu cắt lông",
+      "serviceId": "2",
+      "branchId": "5",
+      "employeeId": "13",
+      "date": "2024-06-15",
+      "timeSlotId": "2",
+      "additionalServices": [
+        "12"
+      ],
+      "notes": "",
+      "totalAmount": 240000,
+      "status": "completed",
+      "paymentMethod": "transfer",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-06-10T08:00:00Z",
+      "updatedAt": "2024-06-15T11:00:00Z"
+    },
+    {
+      "id": "10",
+      "bookingCode": "PC-20240618-010",
+      "customerName": "Trịnh Thị Phúc",
+      "customerEmail": "trinhthiphuc@gmail.com",
+      "customerPhone": "0956789012",
+      "customerAddress": "89 Nguyễn Trãi, Thanh Xuân, Hà Nội",
+      "petName": "Caramel",
+      "petType": "dog",
+      "petBreed": "Shiba Inu",
+      "petAge": 3,
+      "petWeight": 10,
+      "petNotes": "",
+      "serviceId": "10",
+      "branchId": "6",
+      "employeeId": "16",
+      "date": "2024-06-22",
+      "timeSlotId": "5",
+      "additionalServices": [],
+      "notes": "Gói spa đặc biệt nhân dịp sinh nhật bé",
+      "totalAmount": 299000,
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-06-18T11:00:00Z",
+      "updatedAt": "2024-06-22T15:00:00Z"
+    },
+    {
+      "id": "11",
+      "bookingCode": "PC-20240625-011",
+      "customerName": "Lưu Văn Sơn",
+      "customerEmail": "luuvanson@gmail.com",
+      "customerPhone": "0934123456",
+      "customerAddress": "23 Hào Nam, Đống Đa, Hà Nội",
+      "petName": "Titi",
+      "petType": "cat",
+      "petBreed": "Mèo Ragdoll",
+      "petAge": 2,
+      "petWeight": 4.8,
+      "petNotes": "Cần nhẹ nhàng, mèo nhạy cảm",
+      "serviceId": "3",
+      "branchId": "1",
+      "employeeId": "3",
+      "date": "2024-06-28",
+      "timeSlotId": "7",
+      "additionalServices": [],
+      "notes": "",
+      "totalAmount": 170000,
+      "status": "confirmed",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-06-25T09:00:00Z",
+      "updatedAt": "2024-06-25T10:00:00Z"
+    },
+    {
+      "id": "12",
+      "bookingCode": "PC-20240701-012",
+      "customerName": "Đinh Thị Thu",
+      "customerEmail": "dinththu@gmail.com",
+      "customerPhone": "0978234567",
+      "customerAddress": "56 Thụy Khuê, Tây Hồ, Hà Nội",
+      "petName": "Lulu",
+      "petType": "dog",
+      "petBreed": "Bichon Frise",
+      "petAge": 2,
+      "petWeight": 5,
+      "petNotes": "",
+      "serviceId": "13",
+      "branchId": "3",
+      "employeeId": "8",
+      "date": "2024-07-05",
+      "timeSlotId": "1",
+      "additionalServices": [],
+      "notes": "Gói VIP lần đầu thử",
+      "totalAmount": 499000,
+      "status": "pending",
+      "paymentMethod": "transfer",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-07-01T08:00:00Z",
+      "updatedAt": "2024-07-01T08:00:00Z"
+    },
+    {
+      "id": "13",
+      "bookingCode": "PC-20240708-013",
+      "customerName": "Cao Văn Minh",
+      "customerEmail": "caoVanMinh@gmail.com",
+      "customerPhone": "0912567890",
+      "customerAddress": "102 Đường Láng, Đống Đa, Hà Nội",
+      "petName": "Rex",
+      "petType": "dog",
+      "petBreed": "German Shepherd",
+      "petAge": 4,
+      "petWeight": 35,
+      "petNotes": "Chó to, cần thêm nhân viên hỗ trợ",
+      "serviceId": "8",
+      "branchId": "1",
+      "employeeId": "4",
+      "date": "2024-07-12",
+      "timeSlotId": "3",
+      "additionalServices": [],
+      "notes": "Đã học 3 khóa rồi, lần này học nâng cao",
+      "totalAmount": 1200000,
+      "status": "confirmed",
+      "paymentMethod": "transfer",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-07-08T10:00:00Z",
+      "updatedAt": "2024-07-09T08:00:00Z"
+    },
+    {
+      "id": "14",
+      "bookingCode": "PC-20240715-014",
+      "customerName": "Nguyễn Thị Hoa",
+      "customerEmail": "nguyenthihoa@gmail.com",
+      "customerPhone": "0967890123",
+      "customerAddress": "8 Vạn Bảo, Ba Đình, Hà Nội",
+      "petName": "Kitty",
+      "petType": "cat",
+      "petBreed": "Mèo Nga trắng",
+      "petAge": 5,
+      "petWeight": 4,
+      "petNotes": "Mèo lớn tuổi, đề nghị kiểm tra kỹ",
+      "serviceId": "5",
+      "branchId": "6",
+      "employeeId": "17",
+      "date": "2024-07-20",
+      "timeSlotId": "4",
+      "additionalServices": [
+        "9"
+      ],
+      "notes": "",
+      "totalAmount": 220000,
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-07-15T11:00:00Z",
+      "updatedAt": "2024-07-20T13:00:00Z"
+    },
+    {
+      "id": "15",
+      "bookingCode": "PC-20240720-015",
+      "customerName": "Phùng Văn Đạt",
+      "customerEmail": "phungvandat@gmail.com",
+      "customerPhone": "0923456789",
+      "customerAddress": "78 Trần Phú, Hoàng Mai, Hà Nội",
+      "petName": "Tomy",
+      "petType": "dog",
+      "petBreed": "Poodle",
+      "petAge": 1,
+      "petWeight": 3,
+      "petNotes": "Chó con nhút nhát",
+      "serviceId": "1",
+      "branchId": "4",
+      "employeeId": "12",
+      "date": "2024-07-25",
+      "timeSlotId": "6",
+      "additionalServices": [],
+      "notes": "",
+      "totalAmount": 120000,
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-07-20T09:00:00Z",
+      "updatedAt": "2024-07-20T09:00:00Z"
+    },
+    {
+      "id": "16",
+      "bookingCode": "PC-20240725-016",
+      "customerName": "Lê Thị Nga",
+      "customerEmail": "lethinga@gmail.com",
+      "customerPhone": "0945678901",
+      "customerAddress": "15 Lạc Long Quân, Tây Hồ, Hà Nội",
+      "petName": "Snowball",
+      "petType": "cat",
+      "petBreed": "Mèo Ba Tư trắng",
+      "petAge": 3,
+      "petWeight": 3.2,
+      "petNotes": "Lông dày, cần chải kỹ trước khi tắm",
+      "serviceId": "4",
+      "branchId": "1",
+      "employeeId": "3",
+      "date": "2024-07-30",
+      "timeSlotId": "2",
+      "additionalServices": [],
+      "notes": "",
+      "totalAmount": 150000,
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-07-25T14:00:00Z",
+      "updatedAt": "2024-07-25T14:00:00Z"
+    },
+    {
+      "id": "17",
+      "bookingCode": "PC-20240801-017",
+      "customerName": "Vương Quốc Toàn",
+      "customerEmail": "vuongquoctoan@gmail.com",
+      "customerPhone": "0911234567",
+      "customerAddress": "34 Nguyễn Hoàng, Long Biên, Hà Nội",
+      "petName": "Benny",
+      "petType": "dog",
+      "petBreed": "Beagle",
+      "petAge": 2,
+      "petWeight": 9,
+      "petNotes": "",
+      "serviceId": "6",
+      "branchId": "5",
+      "employeeId": "14",
+      "date": "2024-08-05",
+      "timeSlotId": "3",
+      "additionalServices": [],
+      "notes": "Tiêm vaccine dại năm nay",
+      "totalAmount": 220000,
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-08-01T10:00:00Z",
+      "updatedAt": "2024-08-05T12:00:00Z"
+    },
+    {
+      "id": "18",
+      "bookingCode": "PC-20240810-018",
+      "customerName": "Đỗ Minh Hải",
+      "customerEmail": "dominhai@gmail.com",
+      "customerPhone": "0978345678",
+      "customerAddress": "90 Kim Giang, Thanh Xuân, Hà Nội",
+      "petName": "Oreo",
+      "petType": "dog",
+      "petBreed": "Border Collie",
+      "petAge": 3,
+      "petWeight": 14,
+      "petNotes": "Chó thông minh, dễ dạy",
+      "serviceId": "14",
+      "branchId": "1",
+      "employeeId": "4",
+      "date": "2024-08-15",
+      "timeSlotId": "8",
+      "additionalServices": [],
+      "notes": "Đã hoàn thành khóa cơ bản tại đây",
+      "totalAmount": 2500000,
+      "status": "confirmed",
+      "paymentMethod": "transfer",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-08-10T08:00:00Z",
+      "updatedAt": "2024-08-11T09:00:00Z"
+    },
+    {
+      "id": "19",
+      "bookingCode": "PC-20240820-019",
+      "customerName": "Trần Văn Kiên",
+      "customerEmail": "tranvankien@gmail.com",
+      "customerPhone": "0923789012",
+      "customerAddress": "11 Trần Đăng Ninh, Cầu Giấy, Hà Nội",
+      "petName": "Pudding",
+      "petType": "cat",
+      "petBreed": "Scottish Fold",
+      "petAge": 2,
+      "petWeight": 3.8,
+      "petNotes": "",
+      "serviceId": "11",
+      "branchId": "6",
+      "employeeId": "17",
+      "date": "2024-08-25",
+      "timeSlotId": "5",
+      "additionalServices": [],
+      "notes": "Nhổ cao răng định kỳ",
+      "totalAmount": 280000,
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2024-08-20T11:00:00Z",
+      "updatedAt": "2024-08-20T11:00:00Z"
+    },
+    {
+      "id": "20",
+      "bookingCode": "PC-20240901-020",
+      "customerName": "Nguyễn Lan Anh",
+      "customerEmail": "nguyenlananh@gmail.com",
+      "customerPhone": "0956012345",
+      "customerAddress": "5 Hoàng Hoa Thám, Ba Đình, Hà Nội",
+      "petName": "Coco",
+      "petType": "dog",
+      "petBreed": "Maltese",
+      "petAge": 4,
+      "petWeight": 3.5,
+      "petNotes": "Hay bị ướt tai, cần chú ý vệ sinh tai kỹ",
+      "serviceId": "15",
+      "branchId": "3",
+      "employeeId": "9",
+      "date": "2024-09-05",
+      "timeSlotId": "9",
+      "additionalServices": [],
+      "notes": "Đặt dịch vụ tại nhà",
+      "totalAmount": 200000,
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "cancelReason": null,
+      "createdAt": "2024-09-01T08:00:00Z",
+      "updatedAt": "2024-09-05T17:00:00Z"
+    },
+    {
+      "bookingCode": "PET307816",
+      "serviceId": "1",
+      "serviceName": "Tắm & Vệ sinh toàn thân cho chó",
+      "customerName": "Khánh Toàn Nguyễn",
+      "email": "khanhtoan1220@gmail.com",
+      "phone": "0987887889",
+      "address": "Ninh Bình",
+      "petName": "sion",
+      "petType": "Mèo",
+      "petBreed": "Abc",
+      "petAge": "1",
+      "petWeight": "23",
+      "notes": "a",
+      "branchId": "1",
+      "branchName": "PetCare - Chi nhánh Cầu Giấy",
+      "serviceDate": "2026-08-12",
+      "timeSlot": "09:30",
+      "totalPrice": 120000,
+      "status": "pending",
+      "id": "ej9kvRxUDwY"
+    },
+    {
+      "bookingCode": "PC-20260807-545",
+      "customerName": "Khánh Toàn Nguyễn",
+      "customerEmail": "khanhtoan1220@gmail.com",
+      "customerPhone": "0987887889",
+      "customerAddress": "Ninh Bình",
+      "petName": "babxbxb",
+      "petType": "dog",
+      "petBreed": "poddo",
+      "petAge": 1,
+      "petWeight": 3,
+      "petNotes": "adadad",
+      "serviceId": "1",
+      "branchId": "2",
+      "employeeId": "9",
+      "date": "2026-08-15",
+      "timeSlotId": "9",
+      "additionalServices": [
+        "grooming"
+      ],
+      "notes": "",
+      "totalAmount": 150000,
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2026-08-07T17:57:13.421Z",
+      "updatedAt": "2026-08-07T17:57:13.421Z",
+      "id": "PIqP1hn0hkg"
+    },
+    {
+      "bookingCode": "PC-20260807-678",
+      "customerName": "Khánh Toàn Nguyễn",
+      "customerEmail": "khanhtoan1220@gmail.com",
+      "customerPhone": "0987887889",
+      "customerAddress": "Ninh Bình",
+      "petName": "babxbxb",
+      "petType": "cat",
+      "petBreed": "",
+      "petAge": 0,
+      "petWeight": 0,
+      "petNotes": "",
+      "serviceId": "8",
+      "branchId": "1",
+      "employeeId": "1",
+      "date": "2026-08-15",
+      "timeSlotId": "3",
+      "additionalServices": [],
+      "notes": "abcxyz",
+      "voucherCode": "FAMILY15",
+      "discountAmount": 225000,
+      "totalAmount": 1275000,
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": null,
+      "createdAt": "2026-08-07T18:08:32.945Z",
+      "updatedAt": "2026-08-07T18:08:32.945Z",
+      "id": "RTKWUf4Hj3I"
+    },
+    {
+      "bookingCode": "PC-20260807-975",
+      "customerName": "Khánh Toàn Nguyễn",
+      "customerEmail": "khanhtoan1220@gmail.com",
+      "customerPhone": "0987887889",
+      "customerAddress": "Ninh Bình",
+      "petName": "aa",
+      "petType": "dog",
+      "petBreed": "poddo",
+      "petAge": 1,
+      "petWeight": 2,
+      "petNotes": "",
+      "serviceId": "1",
+      "branchId": "1",
+      "employeeId": "2",
+      "date": "2026-08-16",
+      "timeSlotId": "9",
+      "additionalServices": [
+        "nail"
+      ],
+      "notes": "",
+      "voucherCode": "SUMMER20",
+      "discountAmount": 30000,
+      "totalAmount": 120000,
+      "status": "cancelled",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "cancelReason": "không biết",
+      "createdAt": "2026-08-07T18:15:14.453Z",
+      "updatedAt": "2026-08-07T18:33:27.059Z",
+      "id": "Oi19ihOCvkU"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "serviceId": "1",
+      "branchId": "1",
+      "employeeId": "2",
+      "customerName": "Nguyễn Hoa",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Nhân viên rất tận tình, Mochi nhà mình được chăm sóc rất chu đáo. Lông bóng mượt hẳn sau khi tắm. Sẽ quay lại!",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Cầu Giấy",
+        "content": "Cảm ơn bạn đã tin tưởng PetCare! Chúng mình rất vui khi Mochi được chăm sóc tốt. Hẹn gặp lại bạn và bé lần sau nhé!"
+      },
+      "createdAt": "2024-02-10T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "serviceId": "2",
+      "branchId": "1",
+      "employeeId": "2",
+      "customerName": "Trần Minh",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Anh Minh cắt lông rất đẹp đúng như yêu cầu. Poodle nhà mình trông cute hẳn ra. Giá cả hợp lý.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-02-15T14:00:00Z"
+    },
+    {
+      "id": "3",
+      "serviceId": "5",
+      "branchId": "1",
+      "employeeId": "1",
+      "customerName": "Lê Phương",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Bác Hương khám rất kỹ lưỡng, tư vấn chi tiết chế độ ăn cho chó già. Rất chuyên nghiệp và nhiệt tình.",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Cầu Giấy",
+        "content": "Cảm ơn bạn đã đánh giá tích cực! BS Hương luôn cố gắng mang lại dịch vụ tốt nhất cho thú cưng của bạn."
+      },
+      "createdAt": "2024-02-20T09:00:00Z"
+    },
+    {
+      "id": "4",
+      "serviceId": "3",
+      "branchId": "3",
+      "employeeId": "10",
+      "customerName": "Bùi Lan",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Tắm mèo Ba Tư rất khó nhưng chị Phương làm rất nhẹ nhàng. Mèo không bị stress nhiều. Hài lòng!",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-02-25T16:00:00Z"
+    },
+    {
+      "id": "5",
+      "serviceId": "8",
+      "branchId": "5",
+      "employeeId": "13",
+      "customerName": "Võ Tuấn",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Anh Long dạy rất bài bản, sau 10 buổi chú chó nhà mình đã biết ngồi, nằm, đứng và không nhảy lên người nữa. Tuyệt vời!",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Long Biên",
+        "content": "Cảm ơn bạn! Anh Long rất vui khi nghe kết quả tốt. Chúc bạn và bé tiếp tục gắn kết!"
+      },
+      "createdAt": "2024-03-01T11:00:00Z"
+    },
+    {
+      "id": "6",
+      "serviceId": "7",
+      "branchId": "3",
+      "employeeId": "9",
+      "customerName": "Đinh Thu",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Khách sạn rất sạch sẽ, anh Nam gửi ảnh Buddy mỗi ngày, mình yên tâm đi du lịch. Nhất định sẽ quay lại.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-03-05T15:00:00Z"
+    },
+    {
+      "id": "7",
+      "serviceId": "6",
+      "branchId": "2",
+      "employeeId": "5",
+      "customerName": "Ngô Hải",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Tiêm phòng đầy đủ, bác sĩ giải thích rõ ràng về lịch tái tiêm. Phòng chờ thoáng mát, không phải đợi lâu.",
+      "images": [],
+      "isVerified": false,
+      "reply": null,
+      "createdAt": "2024-03-10T10:30:00Z"
+    },
+    {
+      "id": "8",
+      "serviceId": "10",
+      "branchId": "3",
+      "employeeId": "8",
+      "customerName": "Vương Thảo",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Gói spa cho chó thật sự xứng đáng với tiền. Chị Hà massage cho boss rất nhẹ nhàng, về nhà con bé ngủ ngon suốt!",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Tây Hồ",
+        "content": "Cảm ơn bạn! Chị Hà rất vui được chăm sóc cho bé. Hẹn gặp lại!"
+      },
+      "createdAt": "2024-03-15T13:00:00Z"
+    },
+    {
+      "id": "9",
+      "serviceId": "1",
+      "branchId": "4",
+      "employeeId": "12",
+      "customerName": "Trần Anh Đức",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Tắm sạch, sấy thơm, nhân viên ân cần. Giá ok. Chi nhánh Hoàng Mai tiện cho mình.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-03-20T14:00:00Z"
+    },
+    {
+      "id": "10",
+      "serviceId": "9",
+      "branchId": "2",
+      "employeeId": "5",
+      "customerName": "Lý Thị Bảo",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Tẩy giun định kỳ cho cả 2 bé mèo. Nhanh, không đau, bác sĩ tư vấn rất nhiệt tình. Cực kỳ hài lòng!",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-03-25T09:00:00Z"
+    },
+    {
+      "id": "11",
+      "serviceId": "12",
+      "branchId": "6",
+      "employeeId": "18",
+      "customerName": "Dương Văn Phúc",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Cắt móng nhanh, chó không sợ. Chi nhánh Thanh Xuân mới nhưng rất sạch đẹp.",
+      "images": [],
+      "isVerified": false,
+      "reply": null,
+      "createdAt": "2024-04-01T10:00:00Z"
+    },
+    {
+      "id": "12",
+      "serviceId": "5",
+      "branchId": "5",
+      "employeeId": "14",
+      "customerName": "Hoàng Minh Khoa",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "BS Ngọc trẻ nhưng rất giỏi, khám kỹ lưỡng, phát hiện bé bị viêm tai ngoài sớm. Nhờ đó bé khỏi nhanh.",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Long Biên",
+        "content": "Cảm ơn bạn! BS Ngọc rất vui khi giúp được bé. Chúc bé mau khỏe hoàn toàn!"
+      },
+      "createdAt": "2024-04-05T11:00:00Z"
+    },
+    {
+      "id": "13",
+      "serviceId": "13",
+      "branchId": "1",
+      "employeeId": "2",
+      "customerName": "Phan Thị Linh",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Gói VIP thật sự đáng tiền! Bé cún được tắm spa, cắt lông, massage, về nhà ngủ ngon cả ngày. Rất recommend!",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-04-10T15:00:00Z"
+    },
+    {
+      "id": "14",
+      "serviceId": "2",
+      "branchId": "6",
+      "employeeId": "18",
+      "customerName": "Nguyễn Quang Vinh",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Cắt lông khá đẹp, đúng yêu cầu. Chỉ hơi đợi lâu một chút vì đông khách. Sẽ đặt lịch sớm hơn lần sau.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-04-15T13:00:00Z"
+    },
+    {
+      "id": "15",
+      "serviceId": "3",
+      "branchId": "1",
+      "employeeId": "3",
+      "customerName": "Cao Thị Thủy",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Chị Mai tắm mèo nhẹ nhàng lắm. Bé mèo nhà mình rất nhút nhát nhưng không bị stress gì. Cảm ơn chị nhiều!",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Cầu Giấy",
+        "content": "Bé mèo ngoan lắm ạ! Cảm ơn bạn đã tin tưởng. Hẹn gặp lại!"
+      },
+      "createdAt": "2024-04-20T10:00:00Z"
+    },
+    {
+      "id": "16",
+      "serviceId": "6",
+      "branchId": "6",
+      "employeeId": "17",
+      "customerName": "Lê Duy Thành",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "BS Thắng tiêm nhanh, gần như không đau, chó mình không phản ứng gì. Sổ tiêm ghi cẩn thận, rõ ràng.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-04-25T09:30:00Z"
+    },
+    {
+      "id": "17",
+      "serviceId": "11",
+      "branchId": "1",
+      "employeeId": "1",
+      "customerName": "Bùi Phương Nga",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Vệ sinh răng cho chó xong hơi khó chịu một xíu nhưng BS giải thích là bình thường. Sau 2 ngày bé ổn và miệng thơm hơn nhiều.",
+      "images": [],
+      "isVerified": false,
+      "reply": null,
+      "createdAt": "2024-05-01T11:00:00Z"
+    },
+    {
+      "id": "18",
+      "serviceId": "15",
+      "branchId": "3",
+      "employeeId": "9",
+      "customerName": "Vũ Tiến Dũng",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Dịch vụ chăm sóc tại nhà của anh Nam rất chu đáo. Gửi ảnh video đầy đủ, mình đi công tác yên tâm hẳn.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-05-05T16:00:00Z"
+    },
+    {
+      "id": "19",
+      "serviceId": "1",
+      "branchId": "6",
+      "employeeId": "16",
+      "customerName": "Trương Thị Mai",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Chi nhánh Thanh Xuân rất đẹp, sạch sẽ, thơm. Nhân viên thân thiện. Con chó nhà mình rất thích!",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-05-10T14:00:00Z"
+    },
+    {
+      "id": "20",
+      "serviceId": "4",
+      "branchId": "3",
+      "employeeId": "10",
+      "customerName": "Ngô Xuân Hòa",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Chị Phương cắt lông mèo Ragdoll rất đẹp, biết cách giữ mèo không bị sợ. Lần sau vẫn chọn chị.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-05-15T10:00:00Z"
+    },
+    {
+      "id": "21",
+      "serviceId": "7",
+      "branchId": "1",
+      "employeeId": "9",
+      "customerName": "Phùng Thị Hương",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Gửi chó 3 ngày, phòng sạch, được cho ăn đúng giờ. Chỉ hơi buồn là không được gặp bé nhiều. Nhưng overall rất ok.",
+      "images": [],
+      "isVerified": false,
+      "reply": null,
+      "createdAt": "2024-05-20T11:00:00Z"
+    },
+    {
+      "id": "22",
+      "serviceId": "9",
+      "branchId": "4",
+      "employeeId": "11",
+      "customerName": "Đặng Minh Khoa",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "BS Đức tẩy giun cho 2 bé (chó + mèo) rất nhanh, không đau. Dặn dò cẩn thận về chế độ ăn sau tẩy giun.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-05-25T09:00:00Z"
+    },
+    {
+      "id": "23",
+      "serviceId": "2",
+      "branchId": "5",
+      "employeeId": "13",
+      "customerName": "Lê Văn Hải",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Anh Long cắt lông Corgi rất điêu luyện. Bé trông gọn gàng, đáng yêu hơn hẳn. Giá xứng đáng!",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-06-01T13:00:00Z"
+    },
+    {
+      "id": "24",
+      "serviceId": "10",
+      "branchId": "6",
+      "employeeId": "16",
+      "customerName": "Bùi Thị Thanh",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Gói spa cho chó thật sang chảnh! Chị Hồng massage rất đúng điểm, bé Shiba nhà mình mê lắm.",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Thanh Xuân",
+        "content": "Cảm ơn bạn! Chị Hồng rất vui được phục vụ bé. Hẹn gặp lại nhé!"
+      },
+      "createdAt": "2024-06-05T15:00:00Z"
+    },
+    {
+      "id": "25",
+      "serviceId": "5",
+      "branchId": "2",
+      "employeeId": "5",
+      "customerName": "Trịnh Quốc Dũng",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "BS Lan khám rất cẩn thận, phát hiện sớm bé bị nhẹ ở khớp. Nhờ vậy điều trị kịp thời. Rất cảm ơn!",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-06-10T10:00:00Z"
+    },
+    {
+      "id": "26",
+      "serviceId": "12",
+      "branchId": "4",
+      "employeeId": "12",
+      "customerName": "Cao Văn An",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Cắt móng và vệ sinh tai nhanh gọn, không cần đặt lịch. Tiện lợi cho ngày bận rộn.",
+      "images": [],
+      "isVerified": false,
+      "reply": null,
+      "createdAt": "2024-06-15T14:00:00Z"
+    },
+    {
+      "id": "27",
+      "serviceId": "1",
+      "branchId": "3",
+      "employeeId": "8",
+      "customerName": "Nguyễn Thu Hà",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Chi nhánh Tây Hồ cực kỳ đẹp, view hồ cực chill. Chị Hà tắm chó rất kỹ và tỉ mỉ. Sẽ quay lại!",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-06-20T11:00:00Z"
+    },
+    {
+      "id": "28",
+      "serviceId": "8",
+      "branchId": "1",
+      "employeeId": "4",
+      "customerName": "Đinh Văn Sơn",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Anh Hùng dạy rất có tâm, luôn giải thích lý do đằng sau mỗi bài tập. Chó nhà mình tiến bộ vượt bậc.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-06-25T09:00:00Z"
+    },
+    {
+      "id": "29",
+      "serviceId": "3",
+      "branchId": "4",
+      "employeeId": "12",
+      "customerName": "Phạm Lan Anh",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "comment": "Tắm mèo tại Hoàng Mai rất ok. Nhân viên nhẹ nhàng, không làm mèo bị căng thẳng. Giá hợp lý.",
+      "images": [],
+      "isVerified": true,
+      "reply": null,
+      "createdAt": "2024-07-01T13:00:00Z"
+    },
+    {
+      "id": "30",
+      "serviceId": "13",
+      "branchId": "6",
+      "employeeId": "16",
+      "customerName": "Lưu Thị Hường",
+      "customerAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "comment": "Gói VIP tại Thanh Xuân xứng đáng 5 sao! Không gian sang trọng, nhân viên chuyên nghiệp. Bé cún về nhà mà thơm cả tuần!",
+      "images": [],
+      "isVerified": true,
+      "reply": {
+        "staff": "PetCare Thanh Xuân",
+        "content": "Cảm ơn bạn rất nhiều! Chúng mình luôn cố gắng mang lại trải nghiệm tốt nhất cho các boss cưng!"
+      },
+      "createdAt": "2024-07-05T15:00:00Z"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Hướng dẫn tắm chó đúng cách tại nhà",
+      "slug": "huong-dan-tam-cho-dung-cach",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/500px-YellowLabradorLooking_new.jpg",
+      "summary": "Tắm chó không đúng cách có thể gây ra các vấn đề về da và lông. Bài viết hướng dẫn chi tiết cách tắm chó an toàn và hiệu quả ngay tại nhà.",
+      "content": "Tắm chó là việc làm cần thiết để duy trì sức khỏe và vệ sinh cho thú cưng. Trước khi tắm, bạn cần chuẩn bị shampoo chuyên dụng cho chó, khăn lớn, máy sấy tóc và chải lông. Nhiệt độ nước lý tưởng là 37-38°C, không quá nóng hay lạnh. Chải lông trước khi tắm để gỡ các nút rối. Làm ướt toàn thân từ từ, tránh để nước vào tai. Xả sạch shampoo hoàn toàn để tránh kích ứng da. Sấy khô ngay sau khi tắm để tránh chó bị lạnh.",
+      "topic": "Grooming",
+      "author": "BS. Nguyễn Thị Hương",
+      "publishedAt": "2024-01-15T08:00:00Z",
+      "readTime": 5,
+      "tags": [
+        "tắm chó",
+        "grooming",
+        "vệ sinh",
+        "tại nhà"
+      ],
+      "relatedIds": [
+        "5",
+        "6",
+        "8"
+      ],
+      "isPublished": true
+    },
+    {
+      "id": "2",
+      "title": "Lịch tiêm phòng cho chó từ 0-12 tháng tuổi",
+      "slug": "lich-tiem-phong-cho-tu-0-12-thang-tuoi",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Dogs.jpg/500px-Collage_of_Nine_Dogs.jpg",
+      "summary": "Tiêm phòng đúng lịch là bước quan trọng bảo vệ chó khỏi các bệnh nguy hiểm. Tìm hiểu lịch tiêm phòng chuẩn cho chó con từ khi mới sinh đến 1 tuổi.",
+      "content": "Chó con cần được tiêm phòng theo lịch chuẩn để xây dựng hệ miễn dịch vững chắc. Từ 6-8 tuần tuổi: tiêm vaccine phức hợp 5 bệnh (Distemper, Hepatitis, Parainfluenza, Parvovirus, Leptospirosis). Từ 10-12 tuần: nhắc lại mũi thứ 2. Từ 14-16 tuần: nhắc lại mũi thứ 3 và tiêm vaccine dại. Hàng năm: nhắc lại tất cả các vaccine. Sau mỗi mũi tiêm, theo dõi chó trong 30 phút tại phòng khám.",
+      "topic": "Y tế",
+      "author": "BS. Đỗ Thị Lan",
+      "publishedAt": "2024-01-20T08:00:00Z",
+      "readTime": 7,
+      "tags": [
+        "tiêm phòng",
+        "chó con",
+        "vaccine",
+        "phòng bệnh"
+      ],
+      "relatedIds": [
+        "8",
+        "1",
+        "3"
+      ],
+      "isPublished": true
+    },
+    {
+      "id": "3",
+      "title": "Dinh dưỡng cho mèo theo từng giai đoạn",
+      "slug": "dinh-duong-cho-meo-theo-tung-giai-doan",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/500px-Cat_November_2010-1a.jpg",
+      "summary": "Chế độ ăn phù hợp giúp mèo phát triển khỏe mạnh và kéo dài tuổi thọ. Khám phá nhu cầu dinh dưỡng của mèo theo từng độ tuổi.",
+      "content": "Mèo con (0-12 tháng): cần thức ăn giàu protein và canxi để phát triển xương và cơ bắp. Mèo trưởng thành (1-7 tuổi): cân bằng protein, chất béo và tinh bột, hạn chế muối. Mèo lớn tuổi (trên 7 tuổi): giảm protein động vật, tăng chất xơ, bổ sung glucosamine cho khớp. Mèo nên uống nhiều nước; nên kết hợp thức ăn ướt để cung cấp đủ nước. Tránh cho mèo ăn hành, tỏi, sô-cô-la và nho.",
+      "topic": "Dinh dưỡng",
+      "author": "BS. Cao Thị Ngọc",
+      "publishedAt": "2024-02-01T08:00:00Z",
+      "readTime": 6,
+      "tags": [
+        "dinh dưỡng",
+        "mèo",
+        "thức ăn",
+        "sức khỏe"
+      ],
+      "relatedIds": [
+        "5",
+        "6",
+        "8"
+      ],
+      "isPublished": true
+    },
+    {
+      "id": "4",
+      "title": "5 dấu hiệu nhận biết chó bị stress",
+      "slug": "5-dau-hieu-cho-bi-stress",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dog_Breeds.jpg/500px-Dog_Breeds.jpg",
+      "summary": "Chó không thể nói nhưng chúng biểu lộ sự lo lắng qua hành vi. Nhận biết sớm dấu hiệu stress giúp bạn can thiệp kịp thời.",
+      "content": "1. Liếm môi và ngáp liên tục: đây là tín hiệu thú cưng đang lo lắng. 2. Tai cụp, đuôi cụp: tư thế phòng thủ khi sợ hãi. 3. Cào gãi hoặc liếm một chỗ quá nhiều. 4. Không ăn hoặc ăn ít hơn bình thường. 5. Sủa hoặc tru liên tục khi ở một mình. Nguyên nhân stress thường gặp: thay đổi môi trường, tiếng ồn lớn, thiếu vận động. Giải pháp: tạo góc yên tĩnh, tăng thời gian chơi đùa, tham khảo ý kiến bác sĩ thú y.",
+      "topic": "Hành vi",
+      "author": "HLV. Đinh Văn Long",
+      "publishedAt": "2024-02-10T08:00:00Z",
+      "readTime": 4,
+      "tags": [
+        "stress",
+        "hành vi chó",
+        "tâm lý",
+        "chăm sóc"
+      ],
+      "relatedIds": [
+        "7",
+        "2",
+        "1"
+      ],
+      "isPublished": true
+    },
+    {
+      "id": "5",
+      "title": "Cách chọn thức ăn hạt phù hợp cho chó",
+      "slug": "cach-chon-thuc-an-hat-phu-hop-cho-cho",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/500px-YellowLabradorLooking_new.jpg",
+      "summary": "Thị trường thức ăn hạt cho chó rất đa dạng, khó lựa chọn. Bài viết giúp bạn hiểu cách đọc nhãn sản phẩm và chọn loại phù hợp.",
+      "content": "Khi chọn thức ăn hạt cho chó, cần chú ý: thành phần đầu tiên trong danh sách phải là protein động vật (gà, bò, cá). Tránh sản phẩm có ngô hoặc lúa mì là thành phần đầu tiên. Kiểm tra hàm lượng protein tối thiểu 25% với chó trưởng thành. Chọn sản phẩm phù hợp với độ tuổi và kích cỡ chó. Nên chuyển đổi thức ăn từ từ trong 7-10 ngày để tránh rối loạn tiêu hóa.",
+      "topic": "Dinh dưỡng",
+      "author": "BS. Nguyễn Thị Hương",
+      "publishedAt": "2024-02-20T08:00:00Z",
+      "readTime": 5,
+      "tags": [
+        "thức ăn hạt",
+        "dinh dưỡng",
+        "chó",
+        "mua sắm"
+      ],
+      "relatedIds": [
+        "3",
+        "2",
+        "4"
+      ],
+      "isPublished": true
+    },
+    {
+      "id": "6",
+      "title": "Mèo lông dài cần chăm sóc như thế nào?",
+      "slug": "meo-long-dai-can-cham-soc-nhu-the-nao",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/500px-Kittyply_edit1.jpg",
+      "summary": "Mèo lông dài như Ba Tư, Ragdoll cần chế độ chăm sóc đặc biệt để lông luôn mềm mượt và không bị rối.",
+      "content": "Mèo lông dài cần được chải lông hàng ngày để tránh rối và búi lông. Dùng lược răng thưa để gỡ rối trước, sau đó dùng lược răng mịn để hoàn thiện. Tắm mèo lông dài nên thực hiện mỗi 4-6 tuần bởi chuyên gia. Cắt tỉa vùng xung quanh hậu môn để giữ vệ sinh. Bổ sung omega-3 vào khẩu phần để lông bóng mượt hơn. Kiểm tra da thường xuyên vì búi lông có thể che giấu vết thương hoặc ký sinh trùng.",
+      "topic": "Grooming",
+      "author": "Trịnh Thị Phương",
+      "publishedAt": "2024-03-01T08:00:00Z",
+      "readTime": 6,
+      "tags": [
+        "mèo lông dài",
+        "grooming",
+        "chăm sóc",
+        "lông mèo"
+      ],
+      "relatedIds": [
+        "1",
+        "3",
+        "8"
+      ],
+      "isPublished": true
+    },
+    {
+      "id": "7",
+      "title": "Tại sao nên huấn luyện chó từ nhỏ?",
+      "slug": "tai-sao-nen-huan-luyen-cho-tu-nho",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dog_Breeds.jpg/500px-Dog_Breeds.jpg",
+      "summary": "Huấn luyện sớm giúp chó phát triển tính cách tốt và gắn kết với chủ. Tìm hiểu lý do và cách bắt đầu huấn luyện chó con.",
+      "content": "Giai đoạn vàng để huấn luyện chó là từ 8-16 tuần tuổi — đây là thời điểm não bộ linh hoạt nhất. Bắt đầu với các lệnh đơn giản: ngồi, nằm, đến. Sử dụng phương pháp khen thưởng tích cực thay vì trừng phạt. Mỗi buổi tập chỉ nên kéo dài 5-10 phút để chó không mất tập trung. Nhất quán trong lệnh và phần thưởng. Xã hội hóa sớm bằng cách cho chó tiếp xúc với người, trẻ em, chó khác và môi trường đa dạng.",
+      "topic": "Huấn luyện",
+      "author": "HLV. Phạm Quốc Hùng",
+      "publishedAt": "2024-03-10T08:00:00Z",
+      "readTime": 5,
+      "tags": [
+        "huấn luyện",
+        "chó con",
+        "hành vi",
+        "dạy chó"
+      ],
+      "relatedIds": [
+        "4",
+        "2",
+        "1"
+      ],
+      "isPublished": true
+    },
+    {
+      "id": "8",
+      "title": "Phòng ngừa và nhận biết bệnh ve rận ở chó mèo",
+      "slug": "phong-ngua-benh-ve-ran-o-cho-meo",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/500px-Cat_poster_1.jpg",
+      "summary": "Ve rận không chỉ gây khó chịu mà còn truyền nhiều bệnh nguy hiểm. Nhận biết sớm và phòng ngừa đúng cách để bảo vệ thú cưng.",
+      "content": "Dấu hiệu nhận biết: thú cưng gãi liên tục, lông xơ xác, có đốm đen nhỏ trên da hoặc lông. Kiểm tra kỹ vùng tai, nách, háng và kẽ ngón. Ve rận có thể truyền bệnh Lyme, Bartonella và giun tim. Phòng ngừa: nhỏ thuốc ve rận hàng tháng, dùng vòng cổ chống ve, tránh đưa thú cưng vào vùng cỏ cao. Điều trị: tắm bằng shampoo diệt ve chuyên dụng và nhỏ thuốc theo chỉ định bác sĩ.",
+      "topic": "Y tế",
+      "author": "BS. Mai Văn Thắng",
+      "publishedAt": "2024-03-20T08:00:00Z",
+      "readTime": 5,
+      "tags": [
+        "ve rận",
+        "ký sinh trùng",
+        "phòng bệnh",
+        "da liễu"
+      ],
+      "relatedIds": [
+        "2",
+        "3",
+        "5"
+      ],
+      "isPublished": true
+    }
+  ],
+  "promotions": [
+    {
+      "id": "1",
+      "title": "Ưu đãi chào hè — Giảm 20% toàn bộ dịch vụ tắm",
+      "slug": "uu-dai-chao-he-giam-20-tam",
+      "description": "Nhân dịp chào hè, PetCare giảm 20% tất cả dịch vụ tắm và vệ sinh cho chó mèo tại tất cả chi nhánh. Áp dụng từ thứ 2 đến thứ 6 hàng tuần.",
+      "discountType": "percent",
+      "discountValue": 20,
+      "applicableServiceIds": [
+        "1",
+        "3",
+        "10",
+        "13"
+      ],
+      "applicableBranchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "minOrderAmount": 0,
+      "startDate": "2024-05-01",
+      "endDate": "2024-07-31",
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Grooming_Poodle.jpg/500px-Grooming_Poodle.jpg",
+      "code": "SUMMER20",
+      "usageLimit": 500,
+      "usedCount": 123,
+      "isActive": true,
+      "createdAt": "2024-04-25T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Lần đầu đặt lịch — Miễn phí cắt móng",
+      "slug": "lan-dau-dat-lich-mien-phi-cat-mong",
+      "description": "Khách hàng đặt lịch lần đầu tại PetCare sẽ được tặng kèm dịch vụ cắt móng miễn phí (trị giá 60.000đ) khi sử dụng bất kỳ dịch vụ tắm nào.",
+      "discountType": "fixed",
+      "discountValue": 60000,
+      "applicableServiceIds": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "applicableBranchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "minOrderAmount": 100000,
+      "startDate": "2024-01-01",
+      "endDate": "2026-12-31",
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/500px-YellowLabradorLooking_new.jpg",
+      "code": "FIRSTPET",
+      "usageLimit": 1000,
+      "usedCount": 287,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Combo Gia đình — 3 thú cưng giảm 15%",
+      "slug": "combo-gia-dinh-3-thu-cung-giam-15",
+      "description": "Đặt lịch cho 3 thú cưng trở lên trong cùng một lần, bạn sẽ được giảm 15% tổng hóa đơn. Áp dụng cho tất cả dịch vụ tắm và grooming.",
+      "discountType": "percent",
+      "discountValue": 15,
+      "applicableServiceIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "12",
+        "13"
+      ],
+      "applicableBranchIds": [
+        "1",
+        "3",
+        "6"
+      ],
+      "minOrderAmount": 300000,
+      "startDate": "2024-03-01",
+      "endDate": "2026-09-30",
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Dogs.jpg/500px-Collage_of_Nine_Dogs.jpg",
+      "code": "FAMILY15",
+      "usageLimit": 200,
+      "usedCount": 45,
+      "isActive": true,
+      "createdAt": "2024-02-25T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Khám sức khỏe sinh nhật thú cưng",
+      "slug": "kham-suc-khoe-sinh-nhat-thu-cung",
+      "description": "Mang thú cưng đến khám sức khỏe vào tháng sinh nhật của bé, được giảm 50% phí khám và tặng kèm báo cáo sức khỏe chi tiết.",
+      "discountType": "percent",
+      "discountValue": 50,
+      "applicableServiceIds": [
+        "5"
+      ],
+      "applicableBranchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "minOrderAmount": 0,
+      "startDate": "2024-01-01",
+      "endDate": "2026-12-31",
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat_03.jpg/500px-Cat_03.jpg",
+      "code": "BIRTHDAY50",
+      "usageLimit": 300,
+      "usedCount": 89,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Thành viên VIP — Tích điểm đổi quà",
+      "slug": "thanh-vien-vip-tich-diem-doi-qua",
+      "description": "Đăng ký thành viên VIP để tích điểm cho mỗi lần đặt dịch vụ. Tích đủ 1000 điểm để nhận 1 lần tắm miễn phí.",
+      "discountType": "points",
+      "discountValue": 0,
+      "applicableServiceIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "applicableBranchIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "minOrderAmount": 0,
+      "startDate": "2024-01-01",
+      "endDate": "2026-12-31",
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/500px-Kittyply_edit1.jpg",
+      "code": "VIP2024",
+      "usageLimit": 5000,
+      "usedCount": 312,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Mùa tựu trường — Giảm 10% dịch vụ huấn luyện",
+      "slug": "mua-tuu-truong-giam-10-huan-luyen",
+      "description": "Nhân dịp mùa tựu trường, PetCare giảm 10% toàn bộ khóa huấn luyện chó. Cùng bé học những kỹ năng mới!",
+      "discountType": "percent",
+      "discountValue": 10,
+      "applicableServiceIds": [
+        "8",
+        "14"
+      ],
+      "applicableBranchIds": [
+        "1",
+        "5"
+      ],
+      "minOrderAmount": 0,
+      "startDate": "2024-09-01",
+      "endDate": "2026-10-31",
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dog_Breeds.jpg/500px-Dog_Breeds.jpg",
+      "code": "SCHOOL10",
+      "usageLimit": 100,
+      "usedCount": 23,
+      "isActive": true,
+      "createdAt": "2024-08-25T00:00:00Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "customerName": "Nguyễn Minh Anh",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Dịch vụ rất chuyên nghiệp, nhân viên thân thiện và tận tâm. Mochi nhà mình lúc nào cũng vui vẻ sau khi đến PetCare!",
+      "serviceUsed": "Tắm & Vệ sinh toàn thân",
+      "petName": "Mochi",
+      "petType": "dog",
+      "createdAt": "2024-06-15T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "customerName": "Trần Thị Bảo Châu",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Mình đã thử nhiều spa thú cưng ở Hà Nội nhưng PetCare là nơi mình tin tưởng nhất. Luna luôn được chăm sóc cẩn thận.",
+      "serviceUsed": "Spa & Chăm sóc đặc biệt",
+      "petName": "Luna",
+      "petType": "cat",
+      "createdAt": "2024-05-20T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "customerName": "Phạm Văn Khải",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Anh Hùng huấn luyện Buddy nhà mình tuyệt vời lắm. Sau 2 tháng, Buddy ngoan hẳn, không còn nhảy vào người nữa.",
+      "serviceUsed": "Huấn luyện chó cơ bản",
+      "petName": "Buddy",
+      "petType": "dog",
+      "createdAt": "2024-04-10T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "customerName": "Lê Thị Hồng Nhung",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Bác sĩ ở đây rất giỏi và tận tâm. Khi Simba nhà mình bị ốm, bác sĩ chẩn đoán nhanh và điều trị hiệu quả.",
+      "serviceUsed": "Khám sức khỏe định kỳ",
+      "petName": "Simba",
+      "petType": "cat",
+      "createdAt": "2024-07-05T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "customerName": "Hoàng Đức Long",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Khách sạn thú cưng rất tốt, nhân viên gửi ảnh video hàng ngày. Mình đi du lịch 1 tuần hoàn toàn yên tâm.",
+      "serviceUsed": "Khách sạn thú cưng",
+      "petName": "Max",
+      "petType": "dog",
+      "createdAt": "2024-06-01T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "customerName": "Vũ Phương Linh",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Chị Phương cắt lông mèo Ragdoll rất đẹp và nhẹ nhàng. Bông nhà mình không bị stress chút nào. Cực kỳ recommend!",
+      "serviceUsed": "Cắt tỉa lông mèo",
+      "petName": "Bông",
+      "petType": "cat",
+      "createdAt": "2024-05-15T00:00:00Z"
+    },
+    {
+      "id": "7",
+      "customerName": "Đỗ Quốc Hưng",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Gói VIP thật sự đáng đồng tiền. Rocky nhà mình được chăm sóc từ A đến Z, về nhà mà thơm suốt 3 ngày!",
+      "serviceUsed": "Gói chăm sóc toàn diện VIP",
+      "petName": "Rocky",
+      "petType": "dog",
+      "createdAt": "2024-07-18T00:00:00Z"
+    },
+    {
+      "id": "8",
+      "customerName": "Nguyễn Thị Quỳnh",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 4,
+      "content": "Dịch vụ tốt, nhân viên nhiệt tình. Mình đặt online rất tiện. Chỉ hơi đợi xíu hôm cao điểm cuối tuần thôi.",
+      "serviceUsed": "Tắm & Vệ sinh cho mèo",
+      "petName": "Kitty",
+      "petType": "cat",
+      "createdAt": "2024-04-25T00:00:00Z"
+    },
+    {
+      "id": "9",
+      "customerName": "Bùi Văn Đức",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Tiêm phòng nhanh gọn, bác sĩ giải thích rõ ràng. Giá cả hợp lý so với chất lượng dịch vụ. Sẽ là khách quen của PetCare!",
+      "serviceUsed": "Tiêm phòng theo phác đồ",
+      "petName": "Kira",
+      "petType": "dog",
+      "createdAt": "2024-06-28T00:00:00Z"
+    },
+    {
+      "id": "10",
+      "customerName": "Trịnh Lan Hương",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Default_pfp.jpg/500px-Default_pfp.jpg",
+      "rating": 5,
+      "content": "Dịch vụ chăm sóc tại nhà rất tiện lợi. Nhân viên đến đúng giờ, chăm sóc tỉ mỉ và gửi báo cáo ảnh đầy đủ mỗi ngày.",
+      "serviceUsed": "Chăm sóc thú cưng tại nhà",
+      "petName": "Coco",
+      "petType": "cat",
+      "createdAt": "2024-07-10T00:00:00Z"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "1",
+      "question": "Tôi có cần đặt lịch trước không?",
+      "answer": "Hầu hết các dịch vụ cần đặt lịch trước ít nhất 1 ngày, đặc biệt là cắt lông và gói VIP. Riêng dịch vụ cắt móng và vệ sinh tai có thể đến trực tiếp (walk-in).",
+      "category": "Đặt lịch",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "question": "Thú cưng của tôi có cần tiêm phòng trước khi sử dụng dịch vụ không?",
+      "answer": "Đối với dịch vụ khách sạn lưu trú, thú cưng bắt buộc phải đã tiêm phòng đầy đủ. Các dịch vụ khác không bắt buộc nhưng chúng tôi khuyến khích.",
+      "category": "Yêu cầu",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "question": "Tôi có thể hủy lịch hẹn không?",
+      "answer": "Bạn có thể hủy lịch hẹn đang ở trạng thái 'Chờ xác nhận' bằng cách tra cứu mã đặt lịch tại trang Tra cứu lịch hẹn. Đề nghị hủy trước ít nhất 2 tiếng.",
+      "category": "Đặt lịch",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "question": "PetCare có dịch vụ khám chữa bệnh tại nhà không?",
+      "answer": "Hiện tại chúng tôi chưa có dịch vụ khám tại nhà, nhưng có dịch vụ chăm sóc tại nhà (cho ăn, dọn vệ sinh, chơi đùa). Để khám bệnh, vui lòng đến trực tiếp tại chi nhánh.",
+      "category": "Dịch vụ",
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "question": "Mã đặt lịch dùng để làm gì?",
+      "answer": "Mã đặt lịch giúp bạn tra cứu, theo dõi trạng thái và hủy lịch hẹn nếu cần. Vui lòng lưu mã lại sau khi đặt thành công.",
+      "category": "Đặt lịch",
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "question": "PetCare có phục vụ các loại thú cưng khác ngoài chó và mèo không?",
+      "answer": "Hiện tại PetCare chỉ phục vụ chó và mèo. Chúng tôi đang nghiên cứu mở rộng sang thỏ và chim trong thời gian tới.",
+      "category": "Dịch vụ",
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "question": "Tôi có thể xem lịch sử đặt hẹn của mình không?",
+      "answer": "Bạn có thể tra cứu lịch hẹn bằng mã đặt lịch và số điện thoại tại trang Tra cứu lịch hẹn. Hệ thống không yêu cầu đăng nhập.",
+      "category": "Tài khoản",
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "question": "Phương thức thanh toán nào được chấp nhận?",
+      "answer": "Chúng tôi chấp nhận thanh toán tiền mặt trực tiếp tại cơ sở hoặc chuyển khoản ngân hàng khi đặt lịch online.",
+      "category": "Thanh toán",
+      "isActive": true
+    }
+  ],
+  "settings": {
+    "siteName": "PetCare",
+    "tagline": "Chăm sóc thú cưng của bạn với tình yêu và sự chuyên nghiệp",
+    "logo": "/images/petcare-logo.png",
+    "email": "info@petcare.vn",
+    "phone": "1900 1234",
+    "address": "123 Xuân Thủy, Cầu Giấy, Hà Nội",
+    "facebook": "https://facebook.com/petcare.vn",
+    "instagram": "https://instagram.com/petcare.vn",
+    "tiktok": "https://tiktok.com/@petcare.vn",
+    "youtube": "https://youtube.com/@petcarevn",
+    "workingHours": "07:00 - 20:00",
+    "hotline": "024 3789 1234",
+    "founded": "2023",
+    "totalBranches": 6,
+    "totalEmployees": 18,
+    "totalServices": 15
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
